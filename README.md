@@ -5,6 +5,10 @@
 >
 > Helping women understand their hormones through personalized assessments, education, and long-term progress tracking.
 ---
+# Product Owner
+John Boshoff
+# Lead Software Architect
+ChatGPT
 
 ## Overview
 
