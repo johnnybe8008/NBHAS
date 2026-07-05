@@ -142,3 +142,85 @@ Categories drive recommendation rules, product recommendations, application inst
 | CreatedAt | DateTime | Yes | Created timestamp |
 | UpdatedAt | DateTime | Yes | Last updated timestamp |
 
+---
+
+# Section
+
+## Description
+
+Groups symptoms into customer-friendly areas such as Emotional, Physical, Sleep, Mental, Menstrual, and Sexual.
+
+## Fields
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| SectionID | Text | Yes | SEC-EMOTIONAL, SEC-PHYSICAL, etc. |
+| Name | Text | Yes | Customer-facing section name |
+| Description | Text | No | Internal or customer-facing explanation |
+| SortOrder | Integer | Yes | Display order |
+| Active | Boolean | Yes | Whether section is active |
+
+---
+
+# Symptom
+
+## Description
+
+Represents one master symptom in NBHAS.
+
+Symptoms are static master records. Customer severity is not stored here; it is stored in Assessment Symptom.
+
+## Fields
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| SymptomID | Text | Yes | SYM-0001, SYM-0002, etc. |
+| SectionID | Text | Yes | Section this symptom belongs to |
+| DisplayName | Text | Yes | Customer-facing symptom name |
+| OriginalPDFName | Text | No | Original wording from legacy PDF |
+| NormalizedName | Text | No | Cleaned internal wording |
+| Description | Text | No | Optional explanation |
+| SortOrder | Integer | Yes | Alphabetical or manual section order |
+| Active | Boolean | Yes | Whether symptom is active |
+
+---
+
+# Category Symptom
+
+## Description
+
+Links Categories to Symptoms.
+
+This allows each category to show a different symptom subset without duplicating symptom records.
+
+## Fields
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| CategorySymptomID | Text | Yes | CSY-000001 |
+| CategoryID | Text | Yes | Linked category |
+| SymptomID | Text | Yes | Linked symptom |
+| Required | Boolean | Yes | Whether symptom should always appear |
+| SortOverride | Integer | No | Optional category-specific display order |
+| Active | Boolean | Yes | Whether this link is active |
+
+---
+
+# Assessment Symptom
+
+## Description
+
+Stores a customer's severity response for one symptom within one Assessment Session.
+
+This is where progress tracking is made possible.
+
+## Fields
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| AssessmentSymptomID | Text | Yes | ASY-000001 |
+| AssessmentSessionID | Text | Yes | Linked assessment session |
+| SymptomID | Text | Yes | Linked master symptom |
+| Severity | Enum | Yes | None / Mild / Moderate / Severe |
+| SeverityScore | Integer | Yes | None=0, Mild=1, Moderate=2, Severe=3 |
+| CreatedAt | DateTime | Yes | Created timestamp |
