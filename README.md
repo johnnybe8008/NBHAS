@@ -25,6 +25,15 @@ The goal of NBHAS is to provide customers with a personalized hormone assessment
 
 NBHAS is designed as a modular platform rather than a simple survey.
 
+## Core Design Principles
+
+- KISS (Keep It Simple)
+- The Master Data is the single source of truth.
+- Never hard-code business rules.
+- GitHub manages version history.
+- Assessment Sessions are permanent and never edited.
+- Configuration is preferred over code whenever practical.
+ 
 ---
 
 ## Project Objectives
