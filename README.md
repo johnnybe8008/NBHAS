@@ -7,10 +7,14 @@
 # "It's a knowledge platform built around a carefully curated symptom library, assessment engine, recommendation engine, and customer history."
 
 ---
+# Project Team
+
 # Product Owner
 John Boshoff
-# Lead Software Architect
-ChatGPT
+
+# Technical Design & Development
+John Boshoff
+OpenAI ChatGPT
 
 ## Overview
 
