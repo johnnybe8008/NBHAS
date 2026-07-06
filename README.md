@@ -4,7 +4,7 @@
 > A comprehensive hormone assessment platform designed for Nature's Balance.
 >
 > Helping women understand their hormones through personalized assessments, education, and long-term progress tracking.
-# "It's a knowledge platform built around a carefully curated symptom library, assessment engine, recommendation engine, and customer history."
+# "NBHAS is a knowledge-driven assessment platform built around a carefully curated symptom library, assessment engine, recommendation engine, and long-term assessment history."
 
 ---
 # Project Team
