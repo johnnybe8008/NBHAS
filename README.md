@@ -4,6 +4,8 @@
 > A comprehensive hormone assessment platform designed for Nature's Balance.
 >
 > Helping women understand their hormones through personalized assessments, education, and long-term progress tracking.
+# "It's a knowledge platform built around a carefully curated symptom library, assessment engine, recommendation engine, and customer history."
+
 ---
 # Product Owner
 John Boshoff
