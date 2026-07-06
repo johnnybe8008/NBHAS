@@ -31,3 +31,14 @@ const NBHAS = {
     assessment: {},
 
 };
+/******************************************************************************
+ * Initialization
+ ******************************************************************************/
+
+document.addEventListener('DOMContentLoaded', initializeNBHAS);
+
+async function initializeNBHAS() {
+
+    console.log('NBHAS starting...');
+
+}
