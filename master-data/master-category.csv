@@ -7,4 +7,4 @@ CAT-005,TRUE,50,1-5,No periods,"For those with ovaries and uterus. Menopause or 
 CAT-006,TRUE,60,2-1,Ovaries, no uterus (ages 20-35),"For those with ovaries but no uterus.",REC-EST,
 CAT-007,TRUE,70,2-2,Ovaries, no uterus (ages 35-45),"For those with ovaries but no uterus.",REC-EST+PROG,
 CAT-008,TRUE,80,2-3,Ovaries, no uterus (ages 45+),"For those with ovaries but no uterus.",REC-EST+PROG,
-CAT-009,TRUE,90,3,No ovaries - All ages,"For those with no ovaries, regardless of uterus status.",REC-EST,
+CAT-009,TRUE,90,3,No ovaries - All ages,"For those with no ovaries; regardless of uterus status.",REC-EST,
