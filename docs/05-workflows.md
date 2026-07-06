@@ -135,7 +135,7 @@ PDF Template
 
 Customer Summary
 
-# Customer Timeline
+# Customer Journey Timeline
 Assessment Completed
 
 ↓
