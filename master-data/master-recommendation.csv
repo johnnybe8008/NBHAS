@@ -1,1 +1,8 @@
-
+RecommendationID,Active,DisplayOrder,Name,ShortDescription,ApplicationInstructions,EmailTemplateID,PDFTemplateID,FollowUpDays,Notes
+REC-PROG,TRUE,10,Progesterone,"Progesterone therapy",APP-PROG,EMAIL-PROG,PDF-PROG,30,
+REC-EST,TRUE,20,Estradiol,"Estradiol therapy",APP-EST,EMAIL-EST,PDF-EST,30,
+REC-EST+PROG,TRUE,30,Estradiol + Progesterone,"Combined hormone therapy",APP-EST+PROG,EMAIL-EST+PROG,PDF-EST+PROG,30,
+REC-DHEA,FALSE,40,DHEA,"Reserved for future use",APP-DHEA,EMAIL-DHEA,PDF-DHEA,30,
+REC-SUPER-CHLORIDES,FALSE,50,Super Chlorides,"Reserved for future use",APP-SUPER-CHLORIDES,EMAIL-SUPER-CHLORIDES,PDF-SUPER-CHLORIDES,30,
+REC-EST+PROG+DHEA,FALSE,60,Estradiol + Progesterone + DHEA,"Reserved for future use",APP-EST+PROG+DHEA,EMAIL-EST+PROG+DHEA,PDF-EST+PROG+DHEA,30,
+REC-CUSTOM,FALSE,999,Custom Recommendation,"Reserved for practitioner-defined protocols",APP-CUSTOM,EMAIL-CUSTOM,PDF-CUSTOM,30,
