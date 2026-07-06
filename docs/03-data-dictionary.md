@@ -224,3 +224,91 @@ This is where progress tracking is made possible.
 | Severity | Enum | Yes | None / Mild / Moderate / Severe |
 | SeverityScore | Integer | Yes | None=0, Mild=1, Moderate=2, Severe=3 |
 | CreatedAt | DateTime | Yes | Created timestamp |
+
+# Recommendation
+
+## Description
+
+Represents the complete recommended treatment protocol generated from an Assessment Session.
+
+A Recommendation may include one or more products, educational resources, application instructions, follow-up schedules, and communications.
+
+## Fields
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| RecommendationID | Text | Yes | REC-000001 |
+| Name | Text | Yes | Recommendation name |
+| Description | Text | Yes | Internal description |
+| ApplicationInstructions | Long Text | Yes | Product application instructions |
+| EmailTemplateID | Text | Yes | Customer email template |
+| PDFTemplateID | Text | Yes | PDF template |
+| Active | Boolean | Yes | Active recommendation |
+| CreatedAt | DateTime | Yes | Created timestamp |
+| UpdatedAt | DateTime | Yes | Last updated |
+
+# Product
+
+## Description
+
+Represents a Shopify product referenced by NBHAS.
+
+## Fields
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| ProductID | Text | Yes | Shopify Product ID |
+| SKU | Text | No | Product SKU |
+| ProductName | Text | Yes | Display name |
+| ProductURL | URL | Yes | Shopify product URL |
+| Active | Boolean | Yes | Product available |
+
+# Recommendation Product
+
+## Description
+
+Links Recommendations to Products.
+
+## Fields
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| RecommendationProductID | Text | Yes | RPD-000001 |
+| RecommendationID | Text | Yes | Linked recommendation |
+| ProductID | Text | Yes | Linked Shopify product |
+| DisplayOrder | Integer | Yes | Display order |
+| PrimaryProduct | Boolean | Yes | Main recommendation |
+
+# Resource
+
+## Description
+
+Educational material available to customers.
+
+## Fields
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| ResourceID | Text | Yes | RES-000001 |
+| Title | Text | Yes | Resource title |
+| Type | Enum | Yes | Article, PDF, Video, Glossary, Library |
+| URL | URL | Yes | Resource location |
+| Description | Text | No | Summary |
+| Active | Boolean | Yes | Resource available |
+
+# Recommendation Resource
+
+## Description
+
+Links Recommendations to educational resources.
+
+## Fields
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| RecommendationResourceID | Text | Yes | RRS-000001 |
+| RecommendationID | Text | Yes | Recommendation |
+| ResourceID | Text | Yes | Resource |
+| DisplayOrder | Integer | Yes | Display sequence |
+| Required | Boolean | Yes | Always include |
+
