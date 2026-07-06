@@ -1,1 +1,10 @@
-
+ResourceID,Active,DisplayOrder,ResourceType,Title,ShortDescription,URL,Notes
+RES-LIB-01,TRUE,10,Library,You're Not Losing Your Mind, You're Losing Your Hormones!,Main introductory eBook,/pages/library,
+RES-LIB-02,TRUE,20,Library,How to Customize Your Hormone Therapy,Hormone application guide,/pages/library,
+RES-LIB-03,TRUE,30,Library,Article 3,Educational article,/pages/library,
+RES-LIB-04,TRUE,40,Library,Article 4,Educational article,/pages/library,
+RES-LIB-05,TRUE,50,Library,Article 5,Educational article,/pages/library,
+RES-LIB-06,TRUE,60,Library,Article 6,Educational article,/pages/library,
+RES-GLOSSARY,TRUE,70,Glossary,Hormone Glossary,Definitions of hormone-related terms,/pages/glossary,
+RES-SURVEY,TRUE,80,Assessment,Do You Need Estrogen?,Category selection assessment,/pages/do-you-need-estrogen,
+RES-WORKSHEET,TRUE,90,Worksheet,Personal Assessment Worksheet,Printable symptom worksheet,,
