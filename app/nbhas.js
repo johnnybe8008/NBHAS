@@ -80,6 +80,7 @@ async function loadMasterData() {
     renderAssessment();
     attachAssessmentHandlers();
     calculateScores();
+  
 }
 
 
@@ -126,8 +127,6 @@ function renderAssessment() {
         return;
     }
 
-    app.innerHTML = '';
-
     NBHAS.sections
         .filter(section => section.Active === 'TRUE')
         .sort((a, b) => Number(a.DisplayOrder) - Number(b.DisplayOrder))
@@ -138,9 +137,17 @@ function renderAssessment() {
                 .sort((a, b) => Number(a.DisplayOrder) - Number(b.DisplayOrder));
 
             const sectionEl = document.createElement('section');
-            sectionEl.innerHTML = `<h2>${section.SectionName}</h2>`;
-
-            sectionSymptoms.forEach(symptom => {
+ sectionEl.innerHTML = `
+  <div class="nbhas-section-header"
+       style="display:flex;justify-content:flex-start;align-items:center;gap:24px;">
+    <h2 style="margin:0;">${section.SectionName}</h2>
+    <span id="${section.SectionID}-summary"
+          style="font-size:1.6rem;font-weight:bold;color:#8b1f1f;">
+      Answered: 0   Score: 0
+    </span>
+  </div>
+`;
+           sectionSymptoms.forEach(symptom => {
                 sectionEl.innerHTML += `
                     <div>
                         <strong>${symptom.DisplayName}</strong>
@@ -154,7 +161,43 @@ function renderAssessment() {
 
             app.appendChild(sectionEl);
         });
+        
 }
+let answered = 0;
+let score = 0;
+
+function updateSectionTotals() {
+
+    NBHAS.sections.forEach(section => {
+
+        let answered = 0;
+        let score = 0;
+
+        NBHAS.symptoms
+            .filter(symptom => symptom.SectionID === section.SectionID)
+            .forEach(symptom => {
+
+                const selected = document.querySelector(
+                    `input[name="${symptom.SymptomID}"]:checked`
+                );
+
+                if (selected) {
+                    answered++;
+                    score += Number(selected.value);
+                }
+
+            });
+
+        const span = document.getElementById(section.SectionID + '-summary');
+
+        if (span) {
+            span.textContent = `Answered: ${answered}   Score: ${score}`;
+        }
+
+    });
+
+}
+
 /******************************************************************************
  * Attach assessment change handlers
  ******************************************************************************/
@@ -180,7 +223,7 @@ function calculateScores() {
     });
 
     displayScores(totalScore, answeredCount);
-
+    updateSectionTotals();
 }
 
 /******************************************************************************
