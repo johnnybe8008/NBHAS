@@ -6,7 +6,12 @@ const engine = new NBHASEngine(masterData);
 const result = engine.evaluate({
   "SYM-0001": 4,
   "SYM-0002": 2,
-  "SYM-0003": 1
+  "SYM-0003": 1,
+    "SYM-0004": 4,
+  "SYM-0014": 3,
+
+  "SYM-0030": 2,
+  "SYM-0054": 4
 });
 
 console.log("NBHAS RESULT");
