@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "NBHAS",
-    "generated_at": "2026-07-07T18:34:18.283Z",
+    "generated_at": "2026-07-07T19:22:32.711Z",
     "version": "1.0.0"
   },
   "categories": [
@@ -1589,7 +1589,9 @@
       "DisplayOrder": "10",
       "SymptomID": "SYM-0001",
       "CategoryID": "CAT-001",
+      "Operation": "ADD",
       "ScoreValue": "10",
+      "Multiplier": "1",
       "Notes": ""
     },
     {
@@ -1598,7 +1600,9 @@
       "DisplayOrder": "20",
       "SymptomID": "SYM-0002",
       "CategoryID": "CAT-001",
+      "Operation": "ADD",
       "ScoreValue": "10",
+      "Multiplier": "1",
       "Notes": ""
     },
     {
@@ -1607,7 +1611,9 @@
       "DisplayOrder": "30",
       "SymptomID": "SYM-0003",
       "CategoryID": "CAT-001",
+      "Operation": "ADD",
       "ScoreValue": "10",
+      "Multiplier": "1",
       "Notes": ""
     }
   ]

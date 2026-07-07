@@ -63,7 +63,85 @@ function validateIds(name, rows) {
     seen.add(id);
   });
 }
+function buildLookup(rows, idColumn) {
+  const lookup = new Set();
 
+  rows.forEach(row => {
+    lookup.add(row[idColumn]);
+  });
+
+  return lookup;
+}
+
+function validateBoolean(value, fieldName, rowId) {
+  if (value !== "TRUE" && value !== "FALSE") {
+    throw new Error(
+      `${rowId}: ${fieldName} must be TRUE or FALSE (found "${value}")`
+    );
+  }
+}
+
+function validateNumber(value, fieldName, rowId) {
+  if (isNaN(Number(value))) {
+    throw new Error(
+      `${rowId}: ${fieldName} must be numeric (found "${value}")`
+    );
+  }
+}
+function validateRules(data) {
+
+  const symptoms = buildLookup(data.symptoms, "SymptomID");
+  const categories = buildLookup(data.categories, "CategoryID");
+
+  data.rules.forEach(rule => {
+
+    validateBoolean(rule.Active, "Active", rule.RuleID);
+
+    validateNumber(rule.ScoreValue, "ScoreValue", rule.RuleID);
+
+    validateNumber(rule.Multiplier, "Multiplier", rule.RuleID);
+
+if (rule.Operation !== "ADD") {
+    throw new Error(
+        `${rule.RuleID}: unsupported Operation "${rule.Operation}"`
+    );
+}
+
+    if (!symptoms.has(rule.SymptomID)) {
+      throw new Error(
+        `${rule.RuleID}: unknown SymptomID "${rule.SymptomID}"`
+      );
+    }
+
+    if (!categories.has(rule.CategoryID)) {
+      throw new Error(
+        `${rule.RuleID}: unknown CategoryID "${rule.CategoryID}"`
+      );
+    }
+
+  });
+
+}
+function validateRelationships(data) {
+  const sections = buildLookup(data.sections, "SectionID");
+  const recommendations = buildLookup(data.recommendations, "RecommendationID");
+
+  data.symptoms.forEach(symptom => {
+    if (!sections.has(symptom.SectionID)) {
+      throw new Error(
+        `${symptom.SymptomID}: unknown SectionID "${symptom.SectionID}"`
+      );
+    }
+  });
+
+  data.categories.forEach(category => {
+    if (category.RecommendationID && !recommendations.has(category.RecommendationID)) {
+      throw new Error(
+        `${category.CategoryID}: unknown RecommendationID "${category.RecommendationID}"`
+      );
+    }
+  });
+}
 function build() {
   const data = {
     meta: {
@@ -82,6 +160,9 @@ function build() {
   if (!fs.existsSync(DIST_DIR)) {
     fs.mkdirSync(DIST_DIR);
   }
+
+  validateRules(data);
+  validateRelationships(data);
 
   fs.writeFileSync(OUT_FILE, JSON.stringify(data, null, 2));
 
