@@ -15,11 +15,9 @@ class NBHASEngine {
       resources: new Map(),
       rules: [],
       rulesBySymptom: new Map(),
-      maximumScores: new Map()
-    };
+     };
 
     this.buildIndexes();
-    this.calculateMaximumScores();
   }
 
  buildIndexes(){
@@ -69,24 +67,14 @@ class NBHASEngine {
 
 }
 
- calculateMaximumScores() {
-  this.context.rules.forEach(rule => {
-    if (rule.Active !== "TRUE") return;
-    if (rule.Operation !== "ADD") return;
 
-    const categoryId = rule.CategoryID;
-    const scoreValue = Number(rule.ScoreValue);
-    const multiplier = Number(rule.Multiplier || 1);
-    const maxContribution = scoreValue * multiplier * 4;
-
-    const currentMax = this.context.maximumScores.get(categoryId) || 0;
-    this.context.maximumScores.set(categoryId, currentMax + maxContribution);
-  });
-}
 evaluate(answers) {
   const rawScores = this.applyRules(answers);
-  const scores = this.calculateScorePercentages(rawScores);
-  const recommendations = this.buildRecommendations(scores);
+  const scoreData = this.applyRules(answers);
+  const scores = this.calculateScorePercentages(
+    scoreData.rawScores,
+    scoreData.possibleScores
+  );  const recommendations = this.buildRecommendations(scores);
 
   return {
     meta: {
@@ -103,6 +91,7 @@ evaluate(answers) {
 
 applyRules(answers) {
   const rawScores = new Map();
+  const possibleScores = new Map();
 
   Object.entries(answers).forEach(([symptomId, answerValue]) => {
     const rules = this.context.rulesBySymptom.get(symptomId) || [];
@@ -118,18 +107,27 @@ applyRules(answers) {
       const points = scoreValue * multiplier * answerMultiplier;
       const current = rawScores.get(categoryId) || 0;
 
+      const possiblePoints = scoreValue * multiplier * 4;
+
+      const currentPossible = possibleScores.get(categoryId) || 0;
+
+      possibleScores.set(categoryId, currentPossible + possiblePoints);
+
       rawScores.set(categoryId, current + points);
     });
   });
 
-  return rawScores;
+ return {
+    rawScores,
+    possibleScores
+  };
 }
 
-calculateScorePercentages(rawScores) {
+calculateScorePercentages(rawScores, possibleScores) {
   const scores = {};
 
   rawScores.forEach((raw, categoryId) => {
-    const max = this.context.maximumScores.get(categoryId) || 0;
+    const max = possibleScores.get(categoryId) || 0;
     const percent = max > 0 ? (raw / max) * 100 : 0;
     const category = this.context.categories.get(categoryId);
 

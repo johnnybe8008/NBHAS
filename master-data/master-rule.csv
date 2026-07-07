@@ -1,4 +1,105 @@
 RuleID,Active,DisplayOrder,SymptomID,CategoryID,Operation,ScoreValue,Multiplier,Notes
-RULE-0001,TRUE,10,SYM-0001,CAT-001,ADD,10,1,
-RULE-0002,TRUE,20,SYM-0002,CAT-001,ADD,10,1,
-RULE-0003,TRUE,30,SYM-0003,CAT-001,ADD,10,1,
+RULE-0001,TRUE,10,SYM-0001,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0002,TRUE,20,SYM-0002,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0003,TRUE,30,SYM-0003,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0004,TRUE,40,SYM-0004,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0005,TRUE,50,SYM-0005,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0006,TRUE,60,SYM-0006,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0007,TRUE,70,SYM-0007,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0008,TRUE,80,SYM-0008,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0009,TRUE,90,SYM-0009,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0010,TRUE,100,SYM-0010,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0011,TRUE,110,SYM-0011,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0012,TRUE,120,SYM-0012,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0013,FALSE,130,SYM-0013,CAT-003,ADD,10,1,Red flag symptom; included as placeholder but not scored until safety handling is added.
+RULE-0014,TRUE,140,SYM-0014,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0015,TRUE,150,SYM-0015,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0016,TRUE,160,SYM-0016,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0017,TRUE,170,SYM-0017,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0018,TRUE,180,SYM-0018,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0019,TRUE,190,SYM-0019,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0020,TRUE,200,SYM-0020,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0021,TRUE,210,SYM-0021,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0022,TRUE,220,SYM-0022,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0023,TRUE,230,SYM-0023,CAT-001,ADD,10,1,Starter section-based mapping; review with Sindi.
+RULE-0024,TRUE,240,SYM-0024,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0025,TRUE,250,SYM-0025,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0026,TRUE,260,SYM-0026,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0027,TRUE,270,SYM-0027,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0028,TRUE,280,SYM-0028,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0029,TRUE,290,SYM-0029,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0030,TRUE,300,SYM-0030,CAT-003,ADD,10,1,Starter mapping to combined recommendation; review with Sindi.
+RULE-0031,TRUE,310,SYM-0031,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0032,FALSE,320,SYM-0032,CAT-003,ADD,10,1,Red flag symptom; included as placeholder but not scored until safety handling is added.
+RULE-0033,FALSE,330,SYM-0033,CAT-003,ADD,10,1,Red flag symptom; included as placeholder but not scored until safety handling is added.
+RULE-0034,TRUE,340,SYM-0034,CAT-003,ADD,10,1,Starter mapping to combined recommendation; review with Sindi.
+RULE-0035,TRUE,350,SYM-0035,CAT-003,ADD,10,1,Starter mapping to combined recommendation; review with Sindi.
+RULE-0036,TRUE,360,SYM-0036,CAT-003,ADD,10,1,Starter mapping to combined recommendation; review with Sindi.
+RULE-0037,TRUE,370,SYM-0037,CAT-003,ADD,10,1,Starter section-based mapping; review with Sindi.
+RULE-0038,TRUE,380,SYM-0038,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0039,TRUE,390,SYM-0039,CAT-003,ADD,10,1,Starter mapping to combined recommendation; review with Sindi.
+RULE-0040,TRUE,400,SYM-0040,CAT-003,ADD,10,1,Starter mapping to combined recommendation; review with Sindi.
+RULE-0041,TRUE,410,SYM-0041,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0042,TRUE,420,SYM-0042,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0043,TRUE,430,SYM-0043,CAT-003,ADD,10,1,Starter mapping to combined recommendation; review with Sindi.
+RULE-0044,TRUE,440,SYM-0044,CAT-003,ADD,10,1,Starter mapping to combined recommendation; review with Sindi.
+RULE-0045,TRUE,450,SYM-0045,CAT-003,ADD,10,1,Starter mapping to combined recommendation; review with Sindi.
+RULE-0046,TRUE,460,SYM-0046,CAT-003,ADD,10,1,Starter mapping to combined recommendation; review with Sindi.
+RULE-0047,TRUE,470,SYM-0047,CAT-003,ADD,10,1,Starter mapping to combined recommendation; review with Sindi.
+RULE-0048,TRUE,480,SYM-0048,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0049,TRUE,490,SYM-0049,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0050,TRUE,500,SYM-0050,CAT-003,ADD,10,1,Starter mapping to combined recommendation; review with Sindi.
+RULE-0051,TRUE,510,SYM-0051,CAT-003,ADD,10,1,Starter mapping to combined recommendation; review with Sindi.
+RULE-0052,TRUE,520,SYM-0052,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0053,TRUE,530,SYM-0053,CAT-003,ADD,10,1,Starter mapping to combined recommendation; review with Sindi.
+RULE-0054,FALSE,540,SYM-0054,CAT-003,ADD,10,1,Red flag symptom; included as placeholder but not scored until safety handling is added.
+RULE-0055,FALSE,550,SYM-0055,CAT-003,ADD,10,1,Red flag symptom; included as placeholder but not scored until safety handling is added.
+RULE-0056,TRUE,560,SYM-0056,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0057,TRUE,570,SYM-0057,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0058,TRUE,580,SYM-0058,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0059,TRUE,590,SYM-0059,CAT-003,ADD,10,1,Starter section-based mapping; review with Sindi.
+RULE-0060,TRUE,600,SYM-0060,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0061,TRUE,610,SYM-0061,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0062,TRUE,620,SYM-0062,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0063,TRUE,630,SYM-0063,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0064,TRUE,640,SYM-0064,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0065,TRUE,650,SYM-0065,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0066,TRUE,660,SYM-0066,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0067,TRUE,670,SYM-0067,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0068,TRUE,680,SYM-0068,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0069,TRUE,690,SYM-0069,CAT-003,ADD,10,1,Starter mapping to combined recommendation; review with Sindi.
+RULE-0070,TRUE,700,SYM-0070,CAT-003,ADD,10,1,Starter section-based mapping; review with Sindi.
+RULE-0071,TRUE,710,SYM-0071,CAT-003,ADD,10,1,Starter mapping to combined recommendation; review with Sindi.
+RULE-0072,TRUE,720,SYM-0072,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0073,TRUE,730,SYM-0073,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0074,TRUE,740,SYM-0074,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0075,TRUE,750,SYM-0075,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0076,TRUE,760,SYM-0076,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0077,TRUE,770,SYM-0077,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0078,TRUE,780,SYM-0078,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0079,TRUE,790,SYM-0079,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0080,TRUE,800,SYM-0080,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0081,TRUE,810,SYM-0081,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0082,TRUE,820,SYM-0082,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0083,TRUE,830,SYM-0083,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0084,TRUE,840,SYM-0084,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0085,TRUE,850,SYM-0085,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0086,TRUE,860,SYM-0086,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0087,TRUE,870,SYM-0087,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0088,TRUE,880,SYM-0088,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0089,TRUE,890,SYM-0089,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0090,TRUE,900,SYM-0090,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0091,TRUE,910,SYM-0091,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0092,TRUE,920,SYM-0092,CAT-003,ADD,10,1,Starter mapping to combined recommendation; review with Sindi.
+RULE-0093,TRUE,930,SYM-0093,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0094,TRUE,940,SYM-0094,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0095,TRUE,950,SYM-0095,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0096,TRUE,960,SYM-0096,CAT-001,ADD,10,1,Starter mapping to progesterone recommendation; review with Sindi.
+RULE-0097,TRUE,970,SYM-0097,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0098,TRUE,980,SYM-0098,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0099,TRUE,990,SYM-0099,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0100,TRUE,1000,SYM-0100,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0101,TRUE,1010,SYM-0101,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0102,TRUE,1020,SYM-0102,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0103,TRUE,1030,SYM-0103,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
+RULE-0104,TRUE,1040,SYM-0104,CAT-002,ADD,10,1,Starter mapping to estradiol recommendation; review with Sindi.
