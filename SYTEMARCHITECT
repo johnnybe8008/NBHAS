@@ -1,1 +1,346 @@
+NBHAS System Architecture
 
+Version 1.0 (Working Draft)
+
+1. Vision
+
+NBHAS (Nature's Balance Health Assessment System) is a data-driven expert system designed to capture Sindi's hormone balancing expertise in a structured, maintainable, and scalable platform.
+
+The primary goals are to:
+
+Deliver consistent assessments.
+Produce explainable recommendations.
+Educate users.
+Drive appropriate product recommendations.
+Continuously improve using real-world assessment data.
+
+The system must make the same decision every time when presented with identical inputs.
+
+2. Design Philosophy
+
+The project follows one overriding principle:
+
+Knowledge belongs in data. Logic belongs in software. Presentation belongs in Shopify.
+
+This separation allows:
+
+easier maintenance
+easier testing
+simpler updates
+future AI integration
+version control of medical knowledge
+3. High-Level Architecture
+                GitHub Repository
+               (Knowledge Base)
+
+             Master CSV Files
+                     │
+                     ▼
+          Validation & Build Process
+                     │
+                     ▼
+      nbhas-master-data.json
+                     │
+                     ▼
+          Shopify (Canyon Theme)
+                     │
+                     ▼
+        Generic Rule Engine
+                     │
+                     ▼
+          Scoring Engine
+                     │
+                     ▼
+     Recommendation Engine
+                     │
+                     ▼
+        Customer Dashboard
+                     │
+                     ▼
+      Educational Library + Products
+4. Repository Structure
+Repository 1
+
+NBHAS-Knowledge
+
+Purpose:
+
+Single Source of Truth
+
+master-data/
+build/
+dist/
+docs/
+
+Contains
+
+categories
+symptoms
+sections
+recommendations
+resources
+rules (future)
+validation scripts
+Repository 2
+
+Canyon Shopify Theme
+
+Purpose:
+
+Presentation layer
+
+Contains
+
+Liquid
+CSS
+JavaScript
+Dashboard
+Survey UI
+
+Contains no medical knowledge.
+
+5. Data Layers
+Layer 1
+
+Knowledge
+
+Human editable.
+
+CSV files.
+
+Reviewed by Sindi.
+
+Version controlled.
+
+Layer 2
+
+Compiled Knowledge
+
+Generated JSON.
+
+Optimized for runtime.
+
+Never edited manually.
+
+Layer 3
+
+Runtime Objects
+
+JavaScript objects created after loading JSON.
+
+Used by:
+
+Scoring
+Recommendations
+Dashboard
+6. Master Data
+
+Current files
+
+master-category.csv
+master-section.csv
+master-symptom.csv
+master-resource.csv
+master-recommendation.csv
+
+Planned additions
+
+master-rule.csv
+master-product.csv
+master-article.csv
+master-threshold.csv
+7. Rule Engine
+
+The rule engine contains zero hormone knowledge.
+
+It only understands rules.
+
+Example
+
+IF
+
+Condition A
+
+AND
+
+Condition B
+
+THEN
+
+Action C
+
+It processes data.
+
+It never "knows" what estrogen means.
+
+8. Scoring Engine
+
+Responsibilities
+
+Read answers
+Apply weights
+Apply modifiers
+Calculate scores
+Calculate confidence
+Generate score objects
+
+Output
+
+Estrogen
+
+82
+
+Progesterone
+
+74
+
+Sleep
+
+61
+
+Stress
+
+48
+
+Overall
+
+79
+9. Recommendation Engine
+
+Reads scores.
+
+Looks up recommendation IDs.
+
+Returns
+
+recommendation text
+articles
+products
+educational links
+priority
+10. Dashboard Engine
+
+Reads recommendation object.
+
+Displays
+
+score cards
+explanations
+gauges
+product suggestions
+educational content
+
+No calculations occur here.
+
+Presentation only.
+
+11. AI Layer (Future)
+
+Important principle:
+
+AI never decides.
+
+AI explains.
+
+Example
+
+Rule engine determines:
+
+Estrogen Deficiency
+
+High
+
+AI converts this into:
+
+"Your responses strongly suggest..."
+
+This keeps recommendations deterministic while making communication more natural and personalized.
+
+12. Validation
+
+Every build performs:
+
+✓ duplicate IDs
+
+✓ missing references
+
+✓ invalid categories
+
+✓ orphan symptoms
+
+✓ invalid recommendation links
+
+✓ missing resources
+
+No JSON is generated if validation fails.
+
+13. Versioning
+
+Every release receives:
+
+Knowledge Version
+
+1.0.0
+
+Engine Version
+
+1.0.0
+
+Theme Version
+
+1.0.0
+
+This allows you to determine exactly which knowledge base produced a particular assessment.
+
+14. Long-Term Roadmap
+Phase 1
+
+Knowledge Engine
+
+✔ Master Data
+
+✔ Scoring
+
+✔ Recommendations
+
+✔ Dashboard
+
+Phase 2
+
+Assessment History
+
+Customer Portal
+
+Printable Reports
+
+Email Reports
+
+Phase 3
+
+Clinician Dashboard
+
+Population Analytics
+
+Trend Reporting
+
+Outcome Tracking
+
+Phase 4
+
+AI Explanation Layer
+
+Natural-language summaries
+
+Personalized education
+
+Follow-up guidance
+
+Phase 5
+
+Clinical Decision Support
+
+Evidence tracking
+
+Rule validation
+
+Machine-learning analytics (informational only, not replacing deterministic rules)
