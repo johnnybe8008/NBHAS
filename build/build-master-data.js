@@ -5,13 +5,21 @@ const ROOT = path.join(__dirname, "..");
 const MASTER_DIR = path.join(ROOT, "master-data");
 const DIST_DIR = path.join(ROOT, "dist");
 const OUT_FILE = path.join(DIST_DIR, "nbhas-master-data.json");
-
+const ID_COLUMNS = {
+  categories: "CategoryID",
+  sections: "SectionID",
+  symptoms: "SymptomID",
+  resources: "ResourceID",
+  recommendations: "RecommendationID",
+  rules: "RuleID"
+};
 const FILES = {
   categories: "master-category.csv",
   sections: "master-section.csv",
   symptoms: "master-symptom.csv",
   resources: "master-resource.csv",
-  recommendations: "master-recommendation.csv"
+  recommendations: "master-recommendation.csv",
+  rules: "master-rule.csv"
 };
 
 function parseCSV(text) {
@@ -40,9 +48,11 @@ function validateIds(name, rows) {
   const seen = new Set();
 
   rows.forEach((row, index) => {
-    const id = row.id || row.code || row.key;
+    const idColumn = ID_COLUMNS[name];
+    const id = row[idColumn];
 
     if (!id) {
+      console.log(`${name} row ${index + 2}:`, row);
       throw new Error(`${name}: missing id/code/key on row ${index + 2}`);
     }
 
