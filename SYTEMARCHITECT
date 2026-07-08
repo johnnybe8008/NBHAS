@@ -344,3 +344,11 @@ Evidence tracking
 Rule validation
 
 Machine-learning analytics (informational only, not replacing deterministic rules)
+
+NBHAS Assessment Rule #1
+
+Only answered questions are evaluated.
+
+NBHAS Assessment Rule #2
+
+An answer of 0 ("Never") is a valid clinical answer and contributes to the possible score but not to the symptom score.

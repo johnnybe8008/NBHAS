@@ -166,4 +166,10 @@ buildRecommendations(scores) {
   return recommendations;
 }
 }
-module.exports = NBHASEngine;
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = NBHASEngine;
+}
+
+if (typeof window !== "undefined") {
+  window.NBHASEngine = NBHASEngine;
+}
