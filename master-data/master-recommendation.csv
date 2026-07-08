@@ -1,8 +1,8 @@
-RecommendationID,Active,DisplayOrder,Name,ShortDescription,ApplicationInstructions,EmailTemplateID,PDFTemplateID,FollowUpDays,Notes
-REC-PROG,TRUE,10,Progesterone,"Progesterone therapy",APP-PROG,EMAIL-PROG,PDF-PROG,30,
-REC-EST,TRUE,20,Estradiol,"Estradiol therapy",APP-EST,EMAIL-EST,PDF-EST,30,
-REC-EST+PROG,TRUE,30,Estradiol + Progesterone,"Combined hormone therapy",APP-EST+PROG,EMAIL-EST+PROG,PDF-EST+PROG,30,
-REC-DHEA,FALSE,40,DHEA,"Reserved for future use",APP-DHEA,EMAIL-DHEA,PDF-DHEA,30,
-REC-SUPER-CHLORIDES,FALSE,50,Super Chlorides,"Reserved for future use",APP-SUPER-CHLORIDES,EMAIL-SUPER-CHLORIDES,PDF-SUPER-CHLORIDES,30,
-REC-EST+PROG+DHEA,FALSE,60,Estradiol + Progesterone + DHEA,"Reserved for future use",APP-EST+PROG+DHEA,EMAIL-EST+PROG+DHEA,PDF-EST+PROG+DHEA,30,
-REC-CUSTOM,FALSE,999,Custom Recommendation,"Reserved for practitioner-defined protocols",APP-CUSTOM,EMAIL-CUSTOM,PDF-CUSTOM,30,
+RecommendationID,Active,DisplayOrder,AssessmentTitle,AssessmentSummary,TherapyName,TherapySummary,ApplicationInstructions,EmailTemplateID,PDFTemplateID,FollowUpDays,Notes
+REC-PROG,TRUE,10,Low Progesterone,"Your responses suggest that low progesterone may be contributing to your symptoms.","Natural Progesterone Cream","Supports healthy progesterone levels and may help relieve symptoms associated with progesterone deficiency.",APP-PROG,EMAIL-PROG,PDF-PROG,30,
+REC-EST,TRUE,20,Low Estrogen,"Your responses suggest that low estrogen may be contributing to your symptoms.","Natural Estradiol Cream","Supports healthy estrogen levels and may help relieve symptoms associated with estrogen deficiency.",APP-EST,EMAIL-EST,PDF-EST,30,
+REC-BOTH,TRUE,30,Combined Hormone Imbalance,"Your responses suggest that both progesterone and estrogen may be contributing to your symptoms.","Combined Hormone Therapy","Supports healthy progesterone and estrogen levels when both appear to be contributing factors.",APP-BOTH,EMAIL-BOTH,PDF-BOTH,30,
+REC-CORT,TRUE,40,Cortisol Imbalance,"Your responses suggest that cortisol imbalance may be contributing to your symptoms.","Lifestyle & Stress Support","Lifestyle changes and stress-management strategies may help support healthy cortisol balance.",APP-CORT,EMAIL-CORT,PDF-CORT,30,
+REC-THY,TRUE,50,Possible Thyroid Imbalance,"Your responses suggest that thyroid function may warrant further evaluation.","Medical Evaluation","Discuss these symptoms with your healthcare provider for appropriate thyroid testing.",APP-THY,EMAIL-THY,PDF-THY,30,
+REC-TEST,TRUE,60,Low Testosterone,"Your responses suggest that low testosterone may be contributing to your symptoms.","Testosterone Support","Appropriate testosterone support may be beneficial when clinically indicated.",APP-TEST,EMAIL-TEST,PDF-TEST,30,
+REC-MIX,TRUE,70,Multiple Hormone Imbalances,"Your responses suggest that several hormone systems may be contributing to your symptoms.","Personalized Hormone Support","A personalized approach may provide the best support when multiple hormone systems are involved.",APP-MIX,EMAIL-MIX,PDF-MIX,30,
