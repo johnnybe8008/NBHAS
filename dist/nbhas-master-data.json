@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "NBHAS",
-    "generated_at": "2026-07-07T20:59:56.017Z",
+    "generated_at": "2026-07-08T22:15:53.332Z",
     "version": "1.0.0"
   },
   "categories": [
@@ -32,7 +32,7 @@
       "DisplayCode": "1-3",
       "Title": "Periods becoming more normal",
       "Description": "\"For those with ovaries and uterus. Periods becoming more regular after previously being heavy.\"",
-      "RecommendationID": "REC-EST+PROG",
+      "RecommendationID": "REC-EST",
       "Notes": ""
     },
     {
@@ -42,7 +42,7 @@
       "DisplayCode": "1-4",
       "Title": "Beginning to skip periods",
       "Description": "\"For those with ovaries and uterus. Early perimenopause.\"",
-      "RecommendationID": "REC-EST+PROG",
+      "RecommendationID": "REC-EST",
       "Notes": ""
     },
     {
@@ -52,7 +52,7 @@
       "DisplayCode": "1-5",
       "Title": "No periods",
       "Description": "\"For those with ovaries and uterus. Menopause or no menstrual periods.\"",
-      "RecommendationID": "REC-EST+PROG",
+      "RecommendationID": "REC-EST",
       "Notes": ""
     },
     {
@@ -72,7 +72,7 @@
       "DisplayCode": "2-2",
       "Title": "Ovaries - no uterus (ages 35-45)",
       "Description": "\"For those with ovaries but no uterus.\"",
-      "RecommendationID": "REC-EST+PROG",
+      "RecommendationID": "REC-EST",
       "Notes": ""
     },
     {
@@ -82,7 +82,7 @@
       "DisplayCode": "2-3",
       "Title": "Ovaries - no uterus (ages 45+)",
       "Description": "\"For those with ovaries but no uterus.\"",
-      "RecommendationID": "REC-EST+PROG",
+      "RecommendationID": "REC-EST",
       "Notes": ""
     },
     {
@@ -1498,88 +1498,68 @@
   ],
   "recommendations": [
     {
-      "RecommendationID": "REC-PROG",
-      "Active": "TRUE",
-      "DisplayOrder": "10",
-      "Name": "Progesterone",
-      "ShortDescription": "\"Progesterone therapy\"",
-      "ApplicationInstructions": "APP-PROG",
-      "EmailTemplateID": "EMAIL-PROG",
-      "PDFTemplateID": "PDF-PROG",
-      "FollowUpDays": "30",
-      "Notes": ""
-    },
-    {
       "RecommendationID": "REC-EST",
       "Active": "TRUE",
-      "DisplayOrder": "20",
+      "DisplayOrder": "10",
       "Name": "Estradiol",
-      "ShortDescription": "\"Estradiol therapy\"",
+      "AssessmentTitle": "Low Estrogen",
+      "AssessmentSummary": "Your responses suggest that low estrogen may be contributing to your symptoms.",
+      "ProductTitle": "Nature's Balance Bioidentical Estradiol Cream",
+      "ProductSummary": "Supports healthy estrogen balance during menopause.",
+      "ShopifyProductHandle": "bioidentical-estradiol-cream",
+      "EducationPage": "/pages/ynlymylyh#understanding-estrogen-dominance",
       "ApplicationInstructions": "APP-EST",
       "EmailTemplateID": "EMAIL-EST",
       "PDFTemplateID": "PDF-EST",
-      "FollowUpDays": "30",
-      "Notes": ""
+      "FollowUpDays": "30"
     },
     {
-      "RecommendationID": "REC-EST+PROG",
+      "RecommendationID": "REC-PROG",
+      "Active": "TRUE",
+      "DisplayOrder": "20",
+      "Name": "Progesterone",
+      "AssessmentTitle": "Low Progesterone",
+      "AssessmentSummary": "Your responses suggest that low progesterone may be contributing to your symptoms.",
+      "ProductTitle": "Nature's Balance Bioidentical Progesterone Cream",
+      "ProductSummary": "Supports healthy progesterone balance and hormonal wellness.",
+      "ShopifyProductHandle": "bioidentical-progesterone-cream",
+      "EducationPage": "/pages/htcyhrt#1-progesterone-is-boss",
+      "ApplicationInstructions": "APP-PROG",
+      "EmailTemplateID": "EMAIL-PROG",
+      "PDFTemplateID": "PDF-PROG",
+      "FollowUpDays": "30"
+    },
+    {
+      "RecommendationID": "REC-MEL",
       "Active": "TRUE",
       "DisplayOrder": "30",
-      "Name": "Estradiol + Progesterone",
-      "ShortDescription": "\"Combined hormone therapy\"",
-      "ApplicationInstructions": "APP-EST+PROG",
-      "EmailTemplateID": "EMAIL-EST+PROG",
-      "PDFTemplateID": "PDF-EST+PROG",
-      "FollowUpDays": "30",
-      "Notes": ""
+      "Name": "Melatonin",
+      "AssessmentTitle": "Sleep Support Recommended",
+      "AssessmentSummary": "Your responses suggest that sleep-related symptoms may be contributing to your overall hormone balance picture.",
+      "ProductTitle": "Nature's Balance All-Natural Melatonin Cream",
+      "ProductSummary": "Supports restful sleep and nighttime recovery.",
+      "ShopifyProductHandle": "all-natural-melatonin-cream",
+      "EducationPage": "/pages/sleep-and-hormone-balance",
+      "ApplicationInstructions": "APP-MEL",
+      "EmailTemplateID": "EMAIL-MEL",
+      "PDFTemplateID": "PDF-MEL",
+      "FollowUpDays": "30"
     },
     {
-      "RecommendationID": "REC-DHEA",
-      "Active": "FALSE",
+      "RecommendationID": "REC-CORT",
+      "Active": "TRUE",
       "DisplayOrder": "40",
-      "Name": "DHEA",
-      "ShortDescription": "\"Reserved for future use\"",
-      "ApplicationInstructions": "APP-DHEA",
-      "EmailTemplateID": "EMAIL-DHEA",
-      "PDFTemplateID": "PDF-DHEA",
-      "FollowUpDays": "30",
-      "Notes": ""
-    },
-    {
-      "RecommendationID": "REC-SUPER-CHLORIDES",
-      "Active": "FALSE",
-      "DisplayOrder": "50",
-      "Name": "Super Chlorides",
-      "ShortDescription": "\"Reserved for future use\"",
-      "ApplicationInstructions": "APP-SUPER-CHLORIDES",
-      "EmailTemplateID": "EMAIL-SUPER-CHLORIDES",
-      "PDFTemplateID": "PDF-SUPER-CHLORIDES",
-      "FollowUpDays": "30",
-      "Notes": ""
-    },
-    {
-      "RecommendationID": "REC-EST+PROG+DHEA",
-      "Active": "FALSE",
-      "DisplayOrder": "60",
-      "Name": "Estradiol + Progesterone + DHEA",
-      "ShortDescription": "\"Reserved for future use\"",
-      "ApplicationInstructions": "APP-EST+PROG+DHEA",
-      "EmailTemplateID": "EMAIL-EST+PROG+DHEA",
-      "PDFTemplateID": "PDF-EST+PROG+DHEA",
-      "FollowUpDays": "30",
-      "Notes": ""
-    },
-    {
-      "RecommendationID": "REC-CUSTOM",
-      "Active": "FALSE",
-      "DisplayOrder": "999",
-      "Name": "Custom Recommendation",
-      "ShortDescription": "\"Reserved for practitioner-defined protocols\"",
-      "ApplicationInstructions": "APP-CUSTOM",
-      "EmailTemplateID": "EMAIL-CUSTOM",
-      "PDFTemplateID": "PDF-CUSTOM",
-      "FollowUpDays": "30",
-      "Notes": ""
+      "Name": "Cortisol Support",
+      "AssessmentTitle": "Cortisol Imbalance",
+      "AssessmentSummary": "Your responses suggest that cortisol imbalance may be contributing to your symptoms.",
+      "ProductTitle": "Nature's Balance Cortisol Support",
+      "ProductSummary": "Supports healthy cortisol rhythm and stress response.",
+      "ShopifyProductHandle": "cortisol-support",
+      "EducationPage": "/pages/understanding-cortisol",
+      "ApplicationInstructions": "APP-CORT",
+      "EmailTemplateID": "EMAIL-CORT",
+      "PDFTemplateID": "PDF-CORT",
+      "FollowUpDays": "30"
     }
   ],
   "rules": [
