@@ -55,6 +55,8 @@ const NBHAS = {
     recommendations: [],
     resources: [],
 
+    engine: null,
+
     currentCategory: null,
     assessment: {}
 
@@ -81,6 +83,17 @@ async function loadMasterData() {
     attachAssessmentHandlers();
     calculateScores();
   
+// ------------------------------------------------------------
+// Bootstrap NBHAS Engine
+// ------------------------------------------------------------
+
+const masterData = await loadJSON('../dist/nbhas-master-data.json');
+
+NBHAS.engine = new NBHASEngine(masterData);
+
+console.log('✅ NBHAS Engine Ready');
+console.log(NBHAS.engine);
+
 }
 
 
@@ -100,6 +113,20 @@ async function loadCSV(filename) {
     return await response.text();
 
 }
+async function loadJSON(filename) {
+
+    console.log('Loading JSON:', filename);
+
+    const response = await fetch(filename);
+
+    if (!response.ok) {
+        throw new Error('Unable to load JSON: ' + filename);
+    }
+
+    return await response.json();
+
+}
+
 function parseCSV(csvText) {
 
     const lines = csvText.trim().split(/\r?\n/);
@@ -214,16 +241,30 @@ function attachAssessmentHandlers() {
  ******************************************************************************/
 function calculateScores() {
 
-    let totalScore = 0;
-    let answeredCount = 0;
+    const answers = collectAssessmentAnswers();
 
-    document.querySelectorAll('#nbhas-app input[type="radio"]:checked').forEach(input => {
-        totalScore += Number(input.value);
-        answeredCount++;
-    });
-
-    displayScores(totalScore, answeredCount);
+    displayScores(answers.totalScore, answers.answeredCount);
     updateSectionTotals();
+
+    if (NBHAS.engine) {
+
+        const engineResults = NBHAS.engine.evaluate(
+            answers.symptomAnswers
+        );
+
+        console.log("ENGINE RESULTS");
+        console.log(engineResults);
+
+        if (window.renderDashboard) {
+            renderDashboard(engineResults, 'nbhas-results');
+        }
+
+        if (window.NBHASRenderer) {
+            NBHASRenderer.render(engineResults);
+        }
+
+    }
+
 }
 
 /******************************************************************************
@@ -241,4 +282,63 @@ function displayScores(totalScore, answeredCount) {
         <p><strong>Total score:</strong> ${totalScore}</p>
     `;
 
+}
+
+function collectAssessmentAnswers() {
+
+    const answers = {
+        symptomAnswers: {},
+        symptoms: [],
+        totalScore: 0,
+        answeredCount: 0,
+        sectionScores: {}
+    };
+
+    NBHAS.sections.forEach(section => {
+
+        answers.sectionScores[section.SectionID] = {
+            sectionName: section.SectionName,
+            answeredCount: 0,
+            score: 0,
+            symptoms: []
+        };
+
+    });
+
+    NBHAS.symptoms.forEach(symptom => {
+
+        const selected = document.querySelector(
+            `input[name="${symptom.SymptomID}"]:checked`
+        );
+
+        if (!selected) return;
+
+        const score = Number(selected.value);
+        answers.symptomAnswers[symptom.SymptomID] = score;
+
+        answers.symptoms.push({
+            symptomID: symptom.SymptomID,
+            symptomName: symptom.DisplayName,
+            sectionID: symptom.SectionID,
+            score: score
+        });
+
+        answers.totalScore += score;
+        answers.answeredCount++;
+
+        if (answers.sectionScores[symptom.SectionID]) {
+            answers.sectionScores[symptom.SectionID].answeredCount++;
+            answers.sectionScores[symptom.SectionID].score += score;
+            answers.sectionScores[symptom.SectionID].symptoms.push({
+                symptomID: symptom.SymptomID,
+                symptomName: symptom.DisplayName,
+                score: score
+            });
+        }
+
+    });
+
+    console.log('Collected assessment answers:', answers);
+
+    return answers;
 }
