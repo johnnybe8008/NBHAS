@@ -1,0 +1,81 @@
+{
+  "CAT-001": {
+    "mode": "list",
+    "symptoms": [
+      "SYM-0001",
+      "SYM-0002",
+      "SYM-0003",
+      "SYM-0004",
+      "SYM-0009",
+      "SYM-0013",
+      "SYM-0019",
+      "SYM-0021",
+      "SYM-0027",
+      "SYM-0036",
+      "SYM-0039",
+      "SYM-0067",
+      "SYM-0072",
+      "SYM-0105",
+      "SYM-0106",
+      "SYM-0107",
+      "SYM-0108",
+      "SYM-0109",
+      "SYM-0110",
+      "SYM-0111",
+      "SYM-0112",
+      "SYM-0113",
+      "SYM-0114",
+      "SYM-0115",
+      "SYM-0116",
+      "SYM-0117",
+      "SYM-0118"
+    ]
+  },
+
+  "CAT-002": {
+    "mode": "all"
+  },
+
+  "CAT-003": {
+    "mode": "all"
+  },
+
+  "CAT-004": {
+    "mode": "all"
+  },
+
+  "CAT-005": {
+    "mode": "excludeSections",
+    "sectionIDs": [
+      "SEC-006"
+    ]
+  },
+
+  "CAT-006": {
+    "mode": "excludeSections",
+    "sectionIDs": [
+      "SEC-006"
+    ]
+  },
+
+  "CAT-007": {
+    "mode": "excludeSections",
+    "sectionIDs": [
+      "SEC-006"
+    ]
+  },
+
+  "CAT-008": {
+    "mode": "excludeSections",
+    "sectionIDs": [
+      "SEC-006"
+    ]
+  },
+
+  "CAT-009": {
+    "mode": "excludeSections",
+    "sectionIDs": [
+      "SEC-006"
+    ]
+  }
+}

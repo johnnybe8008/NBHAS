@@ -26,3 +26,56 @@ to ensure the clinical logic remains independent of Shopify.
 - Stateless engine
 - Data-driven rules
 - Browser and Node compatible
+
+Your Personal Assessment
+        ↓
+Tell us a little about yourself
+        ↓
+Choose the option that best describes you
+        ↓
+🌿 Emotional Symptoms
+        ↓
+🧠 Mental & Cognitive Symptoms
+        ↓
+🌙 Sleep Symptoms
+        ↓
+💪 Physical Symptoms
+        ↓
+🌸 Women's Health Symptoms
+        ↓
+🩸 Menstrual Symptoms
+        ↓
+❤️ Sexual Health Symptoms
+        ↓
+🌿 Analyzing Your Responses...
+        ↓
+Your Personalized Results
+
+
+NBHAS UI Standards
+
+Colors
+-------
+Primary Teal: #008C8C
+
+Buttons
+--------
+Height: 50px
+Radius: 10px
+
+Progress
+--------
+Always below the assessment.
+Milestone icons only.
+Results icon highlighted.
+
+Transitions
+-----------
+Fade: 300ms
+Results analysis: 2500ms
+
+Cards
+-----
+Rounded corners
+Subtle shadow
+Hover lift

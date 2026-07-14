@@ -8,7 +8,7 @@
  *   controller/
  *
  * Generated:
- *   2026-07-14T01:19:03.012Z
+ *   2026-07-13T00:38:32.412Z
  *
  ******************************************************************************/
 
@@ -76,7 +76,7 @@
 
     const CONFIG = {
         masterJsonPath: window.NBHAS_MASTER_JSON_URL,
-        analysisDelay: 2000
+        analysisDelay: 800
     };
 
     console.log('🚀 NBHAS Phase 4A controller loaded');
@@ -355,32 +355,11 @@ console.log(
 const categories =
     getAssessmentCategoriesForGroup(categoryGroup);
 
-if (categories.length === 1) {
-
-    const categoryID =
-        categories[0].CategoryID;
-
-    NBHAS.selectedAssessmentCategory =
-        categoryID;
-
-    NBHAS.journey.activeSections =
-        buildActiveSections(categoryID);
-
-    NBHAS.journey.currentSectionIndex = 0;
-
-    goToSection(0);
-    return;
-}
-
-if (categories.length > 1) {
+if (categories.length) {
     showAssessmentCategoryScreen();
-    return;
+} else {
+    goToSection(0);
 }
-
-console.error(
-    'No assessment categories found for group:',
-    categoryGroup
-);
 
 }
 
@@ -745,10 +724,10 @@ const categoryDescription = cleanDescription
             <div class="nbhas-journey-navigation">
                 <button
                     type="button"
-                    class="nbhas-button"
+                    class="button button--secondary"
                     data-journey-action="back-to-groups"
                 >
-                   ← Previous
+                    Previous
                 </button>
             </div>
 
@@ -772,85 +751,45 @@ const categoryDescription = cleanDescription
  * 3-1, etc.
  */
 function getAssessmentCategoriesForGroup(categoryGroup) {
+    const prefixByGroup = {
+        'ovaries-uterus': '1-',
+        'ovaries-no-uterus': '2-',
+        'no-ovaries': '3-'
+    };
+
+    const displayCodePrefix = prefixByGroup[categoryGroup];
+
+    if (!displayCodePrefix) {
+        console.warn(
+            'Unknown assessment category group:',
+            categoryGroup
+        );
+
+        return [];
+    }
 
     const categories =
         NBHAS.masterData?.categories || [];
 
     return categories
-        .filter(function (category) {
-
-            if (!isActive(category)) {
-                return false;
-            }
+        .filter(category => {
+            const isActive =
+                String(category.Active).toUpperCase() === 'TRUE';
 
             const displayCode =
                 String(category.DisplayCode || '').trim();
 
-            if (categoryGroup === 'ovaries-uterus') {
-                return displayCode.startsWith('1-');
-            }
-
-            if (categoryGroup === 'ovaries-no-uterus') {
-                return displayCode.startsWith('2-');
-            }
-
-            if (categoryGroup === 'no-ovaries') {
-                return (
-                    displayCode === '3' ||
-                    displayCode.startsWith('3-')
-                );
-            }
-
-            return false;
+            return (
+                isActive &&
+                displayCode.startsWith(displayCodePrefix)
+            );
         })
-        .sort(function (a, b) {
+        .sort((a, b) => {
             return (
                 Number(a.DisplayOrder || 0) -
                 Number(b.DisplayOrder || 0)
             );
         });
-}
-
-/**
- * Return only the sections containing symptoms that
- * apply to the selected assessment category.
- */
-function buildActiveSections(categoryID) {
-
-const applicableSymptomIDs = new Set(
-    (NBHAS.masterData?.assessmentSymptoms || [])
-        .filter(function (mapping) {
-            return (
-                isActive(mapping) &&
-                mapping.CategoryID === categoryID
-            );
-        })
-        .map(function (mapping) {
-            return mapping.SymptomID;
-        })
-);
-
-    const applicableSectionIDs = new Set(
-        NBHAS.symptoms
-            .filter(isActive)
-            .filter(function (symptom) {
-                return applicableSymptomIDs.has(
-                    symptom.SymptomID
-                );
-            })
-            .map(function (symptom) {
-                return symptom.SectionID;
-            })
-    );
-
-    return NBHAS.sections
-        .filter(isActive)
-        .filter(function (section) {
-            return applicableSectionIDs.has(
-                section.SectionID
-            );
-        })
-        .sort(sortByDisplayOrder);
 }
 
 /**
@@ -906,24 +845,13 @@ function handleJourneyClick(event) {
             return;
         }
 
-NBHAS.selectedAssessmentCategory =
-    categoryID;
+        NBHAS.selectedAssessmentCategory =
+            categoryID;
 
-NBHAS.journey.activeSections =
-    buildActiveSections(categoryID);
+        NBHAS.journey.currentSectionIndex = 0;
 
-NBHAS.journey.currentSectionIndex = 0;
-
-if (!NBHAS.journey.activeSections.length) {
-    showAssessmentError(
-        'No assessment sections are available for this category.'
-    );
-    return;
-}
-
-goToSection(0);
-return;
-
+        goToSection(0);
+        return;
     }
 
     const actionButton = event.target.closest(
@@ -998,11 +926,10 @@ function renderSection(sectionIndex) {
     const sections = NBHAS.journey.activeSections;
 
     if (!sections.length) {
-console.error(
-    'No assessment sections are available for category:',
-    NBHAS.selectedAssessmentCategory
-);
-return;
+        showAssessmentError(
+            'No assessment sections are available.'
+        );
+        return;
     }
 
     const section = sections[sectionIndex];
@@ -1020,38 +947,36 @@ return;
     const isLastSection =
         sectionIndex === sections.length - 1;
 
-app.innerHTML = `
-    <section class="nbhas-journey-screen">
+    app.innerHTML = `
+        <section class="nbhas-journey-screen">
 
-        ${buildSectionHeader(section)}
+            ${buildJourneyProgress(
+                sectionIndex,
+                false
+            )}
 
-        <div
-            id="nbhas-section-body"
-            class="nbhas-section-body"
-        >
-        </div>
+            ${buildSectionHeader(section)}
 
-        ${buildJourneyProgress(
-            sectionIndex,
-            false
-        )}
+            <div
+                id="nbhas-section-body"
+                class="nbhas-section-body"
+            >
+            </div>
 
-        <div
-            id="nbhas-section-footer"
-            class="nbhas-section-footer"
-        >
-        </div>
+            <div
+                id="nbhas-section-footer"
+                class="nbhas-section-footer"
+            >
+            </div>
 
-    </section>
-`;
+        </section>
+    `;
 
-renderSectionSymptoms(section);
+    renderSectionSymptoms(section);
 
-renderSectionFooter(isLastSection);
+    renderSectionFooter(isLastSection);
 
-attachJourneyScreenHandlers();
-
-updateVisibleSectionSummary();
+    updateVisibleSectionSummary();
 
     app.scrollIntoView({
         behavior: 'smooth',
@@ -1103,42 +1028,6 @@ function buildSectionHeader(section) {
     `;
 }
 
-/**
- * Return the active symptom IDs for the selected
- * assessment category.
- */
-function getSelectedCategorySymptomIDs() {
-
-    const categoryID =
-        NBHAS.selectedAssessmentCategory;
-
-    if (!categoryID) {
-        return new Set();
-    }
-
-    return new Set(
-        (
-            NBHAS.masterData?.assessmentSymptoms ||
-            []
-        )
-            .filter(function (mapping) {
-                return (
-                    isActive(mapping) &&
-                    mapping.CategoryID === categoryID
-                );
-            })
-            .sort(function (a, b) {
-                return (
-                    Number(a.DisplayOrder || 0) -
-                    Number(b.DisplayOrder || 0)
-                );
-            })
-            .map(function (mapping) {
-                return mapping.SymptomID;
-            })
-    );
-}
-
 /******************************************************************************
  * Section Symptom Rendering
  ******************************************************************************/
@@ -1156,18 +1045,12 @@ function renderSectionSymptoms(section) {
         return;
     }
 
-const selectedSymptomIDs =
-    getSelectedCategorySymptomIDs();
-
-const symptoms = NBHAS.symptoms
-    .filter(isActive)
-    .filter(function (symptom) {
-        return (
-            symptom.SectionID === section.SectionID &&
-            selectedSymptomIDs.has(symptom.SymptomID)
-        );
-    })
-    .sort(sortByDisplayOrder);
+    const symptoms = NBHAS.symptoms
+        .filter(isActive)
+        .filter(function (symptom) {
+            return symptom.SectionID === section.SectionID;
+        })
+        .sort(sortByDisplayOrder);
 
     if (!symptoms.length) {
 
@@ -1201,8 +1084,6 @@ function buildSymptomHTML(symptom) {
     );
 
     return `
-
-    <div class="nbhas-symptom-card">
         <fieldset
             class="nbhas-symptom"
             data-symptom-id="${symptomID}"
@@ -1222,7 +1103,6 @@ function buildSymptomHTML(symptom) {
             </div>
 
         </fieldset>
-    </div>
     `;
 }
 
@@ -1429,7 +1309,7 @@ function renderSectionFooter(isLastSection) {
         ? `
             <button
                 type="button"
-                class="nbhas-button"
+                class="button button--primary nbhas-next-button"
                 data-journey-action="next"
             >
                 🌿 Complete Assessment
@@ -1438,10 +1318,10 @@ function renderSectionFooter(isLastSection) {
         : `
             <button
                 type="button"
-                class="nbhas-button"
+                class="button button--primary nbhas-next-button"
                 data-journey-action="next"
             >
-                Next →
+                Next
             </button>
         `;
 
@@ -1465,10 +1345,10 @@ function renderSectionFooter(isLastSection) {
 
             <button
                 type="button"
-                class="nbhas-button nbhas-previous-button"
+                class="button button--secondary nbhas-previous-button"
                 data-journey-action="previous"
             >
-                ← Previous
+                Previous
             </button>
 
             ${nextButton}
@@ -1482,7 +1362,9 @@ function renderSectionFooter(isLastSection) {
  */
 function getTotalActiveSymptomCount() {
 
-    return getSelectedCategorySymptomIDs().size;
+    return NBHAS.symptoms
+        .filter(isActive)
+        .length;
 }
 
 /**
@@ -1723,15 +1605,15 @@ function showResultsReadyScreen() {
 
                     <button
                         type="button"
-                        class="nbhas-button"
+                        class="button button--secondary"
                         data-journey-action="previous"
                     >
-                        ← Previous
+                        Previous
                     </button>
 
                     <button
                         type="button"
-                        class="nbhas-button"
+                        class="button button--primary"
                         data-journey-action="view-results"
                     >
                         🌿 View My Results
@@ -1893,7 +1775,7 @@ function showAnalysisScreen() {
     app.innerHTML = `
         <section class="nbhas-analysis-screen">
 
-        <div class="nbhas-analysis-card">
+            <div class="nbhas-analysis-card">
 
                 <div class="nbhas-leaf">
                     🌿
@@ -1908,8 +1790,8 @@ function showAnalysisScreen() {
                     your personalized hormone balance results.
                 </p>
 
-                <div class="nbhas-analysis-progress-wrap">
-                    <div class="nbhas-analysis-progress-bar"></div>
+                <div class="nbhas-progress-wrap">
+                    <div class="nbhas-progress-bar"></div>
                 </div>
 
                 <p class="nbhas-analysis-note">
@@ -1921,7 +1803,6 @@ function showAnalysisScreen() {
         </section>
     `;
 }
-
 
 /**
  * Render the existing dashboard without changing
@@ -2127,33 +2008,6 @@ function cssEscape(value) {
         /[^a-zA-Z0-9_-]/g,
         character => `\\${character}`
     );
-}
-
-function showAssessmentError(message) {
-
-    console.error(message);
-
-    const app = document.getElementById('nbhas-app');
-
-    if (!app) {
-        return;
-    }
-
-    app.innerHTML = `
-        <section class="nbhas-journey-screen">
-            <div class="nbhas-error">
-                <h2>Something went wrong</h2>
-                <p>${escapeHTML(message)}</p>
-
-                <button
-                    type="button"
-                    class="nbhas-button"
-                    onclick="location.reload()">
-                    Start Again
-                </button>
-            </div>
-        </section>
-    `;
 }
 
 })();

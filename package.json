@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build:data": "node build/build-master-data.js",
+    "build:controller": "node build/build-controller.js",
+    "build": "npm run build:data && npm run build:controller"
+  }
+}

@@ -25,7 +25,20 @@ function renderDashboard(result, targetId) {
       ${renderFooterCard()}
     </div>
   `;
-//  loadProductImages();
+  loadProductImages();
+  document
+    .getElementById('nbhas-start-again')
+    ?.addEventListener('click', function () {
+
+      if (!confirm(
+        'Start a new assessment? Your current results will be cleared.'
+      )) {
+        return;
+      }
+
+      window.location.reload();
+
+    });
 }
 
 function renderAssessment(result, targetId) {
@@ -158,11 +171,19 @@ function renderRecommendationCard(result) {
           <p>${escapeHtml(productSummary)}</p>
 
           <div class="nbhas-button-row">
-            <a class="nbhas-button" href="${productUrl}">
+            <a class="nbhas-button" 
+              href="${productUrl}"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
               View Product
             </a>
 
-            <a class="nbhas-button nbhas-button-secondary" href="${educationPage}">
+            <a class="nbhas-button nbhas-button-secondary" 
+            href="${educationPage}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Learn More
             </a>
           </div>
@@ -183,14 +204,21 @@ async function loadProductImages() {
 
     const productUrl = `/products/${handle}`;
     const title = product.title || "";
-
+console.log({
+    title: product.title,
+    featured_image: product.featured_image,
+    images: product.images
+});
     box.innerHTML = `
-      <a href="${productUrl}">
+      <a href="${productUrl}"
+          target="_blank"
+          rel="noopener noreferrer"
+      >
         <img
           src="${product.featured_image}"
           alt="${escapeHtml(title)}"
-          width="120"
-          height="120"
+          width="140"
+          height="140"
           loading="lazy">
       </a>
     `;
@@ -214,18 +242,42 @@ function renderIndicatorsCard(result) {
 }
 
 function renderNextStepsCard(result) {
-  return `
-    <div class="nbhas-card">
-      <h3 class="nbhas-card-heading">Next Steps</h3>
 
-      <div class="nbhas-button-row">
-        <a class="nbhas-button" href="#">View Product</a>
-        <a class="nbhas-button nbhas-button-secondary" href="#">Learn More</a>
-        <a class="nbhas-button nbhas-button-secondary" href="#">Download Report</a>
-        <a class="nbhas-button nbhas-button-secondary" href="#">Email Results</a>
+  return `
+    <div class="nbhas-card" >
+
+      <h3 class="nbhas-card-heading">
+        Next Steps
+      </h3>
+
+      <div class="nbhas-button-row" style="display: flex; justify-content: center; gap: 10px;">
+
+        <a
+          class="nbhas-button nbhas-button-secondary"
+          href="#"
+          id="nbhas-download-report">
+          Download Report
+        </a>
+
+        <a
+          class="nbhas-button nbhas-button-secondary"
+          href="#"
+          id="nbhas-email-results">
+          Email Results
+        </a>
+
+        <button
+          type="button"
+          class="nbhas-button nbhas-button-secondary"
+          id="nbhas-start-again">
+          Start Again
+        </button>
+
       </div>
+
     </div>
   `;
+ 
 }
 
 function renderFooterCard() {

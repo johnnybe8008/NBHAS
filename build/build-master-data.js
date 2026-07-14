@@ -11,7 +11,8 @@ const ID_COLUMNS = {
   symptoms: "SymptomID",
   resources: "ResourceID",
   recommendations: "RecommendationID",
-  rules: "RuleID"
+  rules: "RuleID",
+  assessmentSymptoms: "AssessmentSymptomID"
 };
 const FILES = {
   categories: "master-category.csv",
@@ -19,7 +20,8 @@ const FILES = {
   symptoms: "master-symptom.csv",
   resources: "master-resource.csv",
   recommendations: "master-recommendation.csv",
-  rules: "master-rule.csv"
+  rules: "master-rule.csv",
+  assessmentSymptoms: "master-assessment-symptom.csv"
 };
 
 function parseCSV(text) {

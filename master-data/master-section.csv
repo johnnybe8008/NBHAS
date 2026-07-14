@@ -1,8 +1,8 @@
-SectionID,Active,SectionName,DisplayOrder,ClinicalOrder,Notes
-SEC-001,TRUE,Emotional,10,10,
-SEC-002,TRUE,Mental / Cognitive,20,20,
-SEC-003,TRUE,Sleep,30,30,
-SEC-004,TRUE,Physical,40,40,
-SEC-005,TRUE,Women's Health,50,50,
-SEC-006,TRUE,Menstrual,60,60,
-SEC-007,TRUE,Sexual,70,70,
+SectionID,SectionName,DisplayOrder,Icon,Active
+SEC-001,Emotional,1,😊,TRUE
+SEC-002,Mental/Cognitive,2,🧠,TRUE
+SEC-003,Sleep,3,🌙,TRUE
+SEC-004,Physical,4,💪,TRUE
+SEC-005,Women’s Health,5,🌸,TRUE
+SEC-006,Menstrual,6,🩸,TRUE
+SEC-007,Sexual,7,❤️,TRUE
