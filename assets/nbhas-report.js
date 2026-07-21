@@ -4,6 +4,7 @@
  * Nature's Balance Hormone Assessment System
  * ============================================================
  */
+console.log('✅ nbhas-report.js loaded');
 
 (function () {
 

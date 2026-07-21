@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "NBHAS",
-    "generated_at": "2026-07-10T15:16:08.586Z",
+    "generated_at": "2026-07-13T20:42:59.313Z",
     "version": "1.0.0"
   },
   "categories": [
@@ -1395,6 +1395,174 @@
       "DisplayOrder": "80",
       "ClinicalOrder": "70",
       "Notes": "Appears in PDF under Female Health and Sexual; assigned to Sexual as the master section."
+    },
+    {
+      "SymptomID": "SYM-0105",
+      "Active": "TRUE",
+      "SectionID": "SEC-001",
+      "DisplayName": "Feeling sad",
+      "LegacySurveyName": "Feeling sad",
+      "OriginalPDFName": "Feeling sad",
+      "Description": "",
+      "DisplayOrder": "140",
+      "ClinicalOrder": "",
+      "Notes": ""
+    },
+    {
+      "SymptomID": "SYM-0106",
+      "Active": "TRUE",
+      "SectionID": "SEC-003",
+      "DisplayName": "Sleeping more than normal",
+      "LegacySurveyName": "Sleeping more than normal",
+      "OriginalPDFName": "Sleeping more than normal",
+      "Description": "",
+      "DisplayOrder": "90",
+      "ClinicalOrder": "",
+      "Notes": ""
+    },
+    {
+      "SymptomID": "SYM-0107",
+      "Active": "TRUE",
+      "SectionID": "SEC-004",
+      "DisplayName": "Upset stomach",
+      "LegacySurveyName": "Upset stomach",
+      "OriginalPDFName": "Upset stomach",
+      "Description": "",
+      "DisplayOrder": "270",
+      "ClinicalOrder": "",
+      "Notes": ""
+    },
+    {
+      "SymptomID": "SYM-0108",
+      "Active": "TRUE",
+      "SectionID": "SEC-004",
+      "DisplayName": "Bloating",
+      "LegacySurveyName": "Bloating",
+      "OriginalPDFName": "Bloating",
+      "Description": "",
+      "DisplayOrder": "280",
+      "ClinicalOrder": "",
+      "Notes": ""
+    },
+    {
+      "SymptomID": "SYM-0109",
+      "Active": "TRUE",
+      "SectionID": "SEC-004",
+      "DisplayName": "Constipation",
+      "LegacySurveyName": "Constipation",
+      "OriginalPDFName": "Constipation",
+      "Description": "",
+      "DisplayOrder": "290",
+      "ClinicalOrder": "",
+      "Notes": ""
+    },
+    {
+      "SymptomID": "SYM-0110",
+      "Active": "TRUE",
+      "SectionID": "SEC-004",
+      "DisplayName": "Diarrhea",
+      "LegacySurveyName": "Diarrhea",
+      "OriginalPDFName": "Diarrhea",
+      "Description": "",
+      "DisplayOrder": "300",
+      "ClinicalOrder": "",
+      "Notes": ""
+    },
+    {
+      "SymptomID": "SYM-0111",
+      "Active": "TRUE",
+      "SectionID": "SEC-004",
+      "DisplayName": "Backache",
+      "LegacySurveyName": "Backache",
+      "OriginalPDFName": "Backache",
+      "Description": "",
+      "DisplayOrder": "310",
+      "ClinicalOrder": "",
+      "Notes": ""
+    },
+    {
+      "SymptomID": "SYM-0112",
+      "Active": "TRUE",
+      "SectionID": "SEC-004",
+      "DisplayName": "Appetite changes",
+      "LegacySurveyName": "Appetite changes",
+      "OriginalPDFName": "Appetite changes",
+      "Description": "",
+      "DisplayOrder": "320",
+      "ClinicalOrder": "",
+      "Notes": ""
+    },
+    {
+      "SymptomID": "SYM-0113",
+      "Active": "TRUE",
+      "SectionID": "SEC-004",
+      "DisplayName": "Food cravings",
+      "LegacySurveyName": "Food cravings",
+      "OriginalPDFName": "Food cravings",
+      "Description": "",
+      "DisplayOrder": "330",
+      "ClinicalOrder": "",
+      "Notes": ""
+    },
+    {
+      "SymptomID": "SYM-0114",
+      "Active": "TRUE",
+      "SectionID": "SEC-004",
+      "DisplayName": "Joint pain",
+      "LegacySurveyName": "Joint pain",
+      "OriginalPDFName": "Joint pain",
+      "Description": "",
+      "DisplayOrder": "340",
+      "ClinicalOrder": "",
+      "Notes": ""
+    },
+    {
+      "SymptomID": "SYM-0115",
+      "Active": "TRUE",
+      "SectionID": "SEC-004",
+      "DisplayName": "Muscle pain",
+      "LegacySurveyName": "Muscle pain",
+      "OriginalPDFName": "Muscle pain",
+      "Description": "",
+      "DisplayOrder": "350",
+      "ClinicalOrder": "",
+      "Notes": ""
+    },
+    {
+      "SymptomID": "SYM-0116",
+      "Active": "TRUE",
+      "SectionID": "SEC-004",
+      "DisplayName": "Tension in the back of the head",
+      "LegacySurveyName": "Tension in the back of the head",
+      "OriginalPDFName": "Tension in the back of the head",
+      "Description": "",
+      "DisplayOrder": "360",
+      "ClinicalOrder": "",
+      "Notes": ""
+    },
+    {
+      "SymptomID": "SYM-0117",
+      "Active": "TRUE",
+      "SectionID": "SEC-004",
+      "DisplayName": "Tension in the neck",
+      "LegacySurveyName": "Tension in the neck",
+      "OriginalPDFName": "Tension in the neck",
+      "Description": "",
+      "DisplayOrder": "370",
+      "ClinicalOrder": "",
+      "Notes": ""
+    },
+    {
+      "SymptomID": "SYM-0118",
+      "Active": "TRUE",
+      "SectionID": "SEC-004",
+      "DisplayName": "Tension in the shoulders",
+      "LegacySurveyName": "Tension in the shoulders",
+      "OriginalPDFName": "Tension in the shoulders",
+      "Description": "",
+      "DisplayOrder": "380",
+      "ClinicalOrder": "",
+      "Notes": ""
     }
   ],
   "resources": [
@@ -2699,6 +2867,6280 @@
       "ScoreValue": "10",
       "Multiplier": "1",
       "Notes": "Starter mapping to estradiol recommendation; review with Sindi."
+    }
+  ],
+  "assessmentSymptoms": [
+    {
+      "AssessmentSymptomID": "ASM-0001",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0001",
+      "DisplayOrder": "10",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0002",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0002",
+      "DisplayOrder": "20",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0003",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0003",
+      "DisplayOrder": "30",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0004",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0004",
+      "DisplayOrder": "40",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0005",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0009",
+      "DisplayOrder": "50",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0006",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0013",
+      "DisplayOrder": "60",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0007",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0105",
+      "DisplayOrder": "70",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0008",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0019",
+      "DisplayOrder": "80",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0009",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0021",
+      "DisplayOrder": "90",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0010",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0027",
+      "DisplayOrder": "100",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0011",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0106",
+      "DisplayOrder": "110",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0012",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0036",
+      "DisplayOrder": "120",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0013",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0039",
+      "DisplayOrder": "130",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0014",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0107",
+      "DisplayOrder": "140",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0015",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0108",
+      "DisplayOrder": "150",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0016",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0109",
+      "DisplayOrder": "160",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0017",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0110",
+      "DisplayOrder": "170",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0018",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0111",
+      "DisplayOrder": "180",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0019",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0112",
+      "DisplayOrder": "190",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0020",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0113",
+      "DisplayOrder": "200",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0021",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0114",
+      "DisplayOrder": "210",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0022",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0115",
+      "DisplayOrder": "220",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0023",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0116",
+      "DisplayOrder": "230",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0024",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0117",
+      "DisplayOrder": "240",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0025",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0118",
+      "DisplayOrder": "250",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0026",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0067",
+      "DisplayOrder": "260",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0027",
+      "CategoryID": "CAT-001",
+      "SymptomID": "SYM-0072",
+      "DisplayOrder": "270",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0028",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0001",
+      "DisplayOrder": "10",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0029",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0002",
+      "DisplayOrder": "20",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0030",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0003",
+      "DisplayOrder": "30",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0031",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0004",
+      "DisplayOrder": "40",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0032",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0005",
+      "DisplayOrder": "50",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0033",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0006",
+      "DisplayOrder": "60",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0034",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0007",
+      "DisplayOrder": "70",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0035",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0008",
+      "DisplayOrder": "80",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0036",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0009",
+      "DisplayOrder": "90",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0037",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0010",
+      "DisplayOrder": "100",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0038",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0011",
+      "DisplayOrder": "110",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0039",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0012",
+      "DisplayOrder": "120",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0040",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0013",
+      "DisplayOrder": "130",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0041",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0105",
+      "DisplayOrder": "140",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0042",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0014",
+      "DisplayOrder": "150",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0043",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0015",
+      "DisplayOrder": "160",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0044",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0016",
+      "DisplayOrder": "170",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0045",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0017",
+      "DisplayOrder": "180",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0046",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0018",
+      "DisplayOrder": "190",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0047",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0019",
+      "DisplayOrder": "200",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0048",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0020",
+      "DisplayOrder": "210",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0049",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0021",
+      "DisplayOrder": "220",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0050",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0022",
+      "DisplayOrder": "230",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0051",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0023",
+      "DisplayOrder": "240",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0052",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0024",
+      "DisplayOrder": "250",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0053",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0025",
+      "DisplayOrder": "260",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0054",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0026",
+      "DisplayOrder": "270",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0055",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0027",
+      "DisplayOrder": "280",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0056",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0028",
+      "DisplayOrder": "290",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0057",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0029",
+      "DisplayOrder": "300",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0058",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0106",
+      "DisplayOrder": "310",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0059",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0030",
+      "DisplayOrder": "320",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0060",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0031",
+      "DisplayOrder": "330",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0061",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0032",
+      "DisplayOrder": "340",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0062",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0033",
+      "DisplayOrder": "350",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0063",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0034",
+      "DisplayOrder": "360",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0064",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0035",
+      "DisplayOrder": "370",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0065",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0036",
+      "DisplayOrder": "380",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0066",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0037",
+      "DisplayOrder": "390",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0067",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0038",
+      "DisplayOrder": "400",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0068",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0039",
+      "DisplayOrder": "410",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0069",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0040",
+      "DisplayOrder": "420",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0070",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0041",
+      "DisplayOrder": "430",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0071",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0042",
+      "DisplayOrder": "440",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0072",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0043",
+      "DisplayOrder": "450",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0073",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0044",
+      "DisplayOrder": "460",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0074",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0045",
+      "DisplayOrder": "470",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0075",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0046",
+      "DisplayOrder": "480",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0076",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0047",
+      "DisplayOrder": "490",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0077",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0048",
+      "DisplayOrder": "500",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0078",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0049",
+      "DisplayOrder": "510",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0079",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0050",
+      "DisplayOrder": "520",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0080",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0051",
+      "DisplayOrder": "530",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0081",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0052",
+      "DisplayOrder": "540",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0082",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0053",
+      "DisplayOrder": "550",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0083",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0054",
+      "DisplayOrder": "560",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0084",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0055",
+      "DisplayOrder": "570",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0085",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0107",
+      "DisplayOrder": "580",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0086",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0108",
+      "DisplayOrder": "590",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0087",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0109",
+      "DisplayOrder": "600",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0088",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0110",
+      "DisplayOrder": "610",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0089",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0111",
+      "DisplayOrder": "620",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0090",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0112",
+      "DisplayOrder": "630",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0091",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0113",
+      "DisplayOrder": "640",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0092",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0114",
+      "DisplayOrder": "650",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0093",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0115",
+      "DisplayOrder": "660",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0094",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0116",
+      "DisplayOrder": "670",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0095",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0117",
+      "DisplayOrder": "680",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0096",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0118",
+      "DisplayOrder": "690",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0097",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0056",
+      "DisplayOrder": "700",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0098",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0057",
+      "DisplayOrder": "710",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0099",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0058",
+      "DisplayOrder": "720",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0100",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0059",
+      "DisplayOrder": "730",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0101",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0060",
+      "DisplayOrder": "740",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0102",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0061",
+      "DisplayOrder": "750",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0103",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0062",
+      "DisplayOrder": "760",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0104",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0063",
+      "DisplayOrder": "770",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0105",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0064",
+      "DisplayOrder": "780",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0106",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0065",
+      "DisplayOrder": "790",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0107",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0066",
+      "DisplayOrder": "800",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0108",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0067",
+      "DisplayOrder": "810",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0109",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0068",
+      "DisplayOrder": "820",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0110",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0069",
+      "DisplayOrder": "830",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0111",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0070",
+      "DisplayOrder": "840",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0112",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0071",
+      "DisplayOrder": "850",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0113",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0072",
+      "DisplayOrder": "860",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0114",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0073",
+      "DisplayOrder": "870",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0115",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0074",
+      "DisplayOrder": "880",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0116",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0075",
+      "DisplayOrder": "890",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0117",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0076",
+      "DisplayOrder": "900",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0118",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0077",
+      "DisplayOrder": "910",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0119",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0078",
+      "DisplayOrder": "920",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0120",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0079",
+      "DisplayOrder": "930",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0121",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0080",
+      "DisplayOrder": "940",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0122",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0081",
+      "DisplayOrder": "950",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0123",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0082",
+      "DisplayOrder": "960",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0124",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0083",
+      "DisplayOrder": "970",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0125",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0084",
+      "DisplayOrder": "980",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0126",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0085",
+      "DisplayOrder": "990",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0127",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0086",
+      "DisplayOrder": "1000",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0128",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0087",
+      "DisplayOrder": "1010",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0129",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0088",
+      "DisplayOrder": "1020",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0130",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0089",
+      "DisplayOrder": "1030",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0131",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0090",
+      "DisplayOrder": "1040",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0132",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0091",
+      "DisplayOrder": "1050",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0133",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0092",
+      "DisplayOrder": "1060",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0134",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0093",
+      "DisplayOrder": "1070",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0135",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0094",
+      "DisplayOrder": "1080",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0136",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0095",
+      "DisplayOrder": "1090",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0137",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0096",
+      "DisplayOrder": "1100",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0138",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0097",
+      "DisplayOrder": "1110",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0139",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0098",
+      "DisplayOrder": "1120",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0140",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0099",
+      "DisplayOrder": "1130",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0141",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0100",
+      "DisplayOrder": "1140",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0142",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0101",
+      "DisplayOrder": "1150",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0143",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0102",
+      "DisplayOrder": "1160",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0144",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0103",
+      "DisplayOrder": "1170",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0145",
+      "CategoryID": "CAT-002",
+      "SymptomID": "SYM-0104",
+      "DisplayOrder": "1180",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0146",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0001",
+      "DisplayOrder": "10",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0147",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0002",
+      "DisplayOrder": "20",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0148",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0003",
+      "DisplayOrder": "30",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0149",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0004",
+      "DisplayOrder": "40",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0150",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0005",
+      "DisplayOrder": "50",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0151",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0006",
+      "DisplayOrder": "60",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0152",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0007",
+      "DisplayOrder": "70",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0153",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0008",
+      "DisplayOrder": "80",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0154",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0009",
+      "DisplayOrder": "90",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0155",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0010",
+      "DisplayOrder": "100",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0156",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0011",
+      "DisplayOrder": "110",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0157",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0012",
+      "DisplayOrder": "120",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0158",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0013",
+      "DisplayOrder": "130",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0159",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0105",
+      "DisplayOrder": "140",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0160",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0014",
+      "DisplayOrder": "150",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0161",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0015",
+      "DisplayOrder": "160",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0162",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0016",
+      "DisplayOrder": "170",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0163",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0017",
+      "DisplayOrder": "180",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0164",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0018",
+      "DisplayOrder": "190",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0165",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0019",
+      "DisplayOrder": "200",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0166",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0020",
+      "DisplayOrder": "210",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0167",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0021",
+      "DisplayOrder": "220",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0168",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0022",
+      "DisplayOrder": "230",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0169",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0023",
+      "DisplayOrder": "240",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0170",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0024",
+      "DisplayOrder": "250",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0171",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0025",
+      "DisplayOrder": "260",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0172",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0026",
+      "DisplayOrder": "270",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0173",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0027",
+      "DisplayOrder": "280",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0174",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0028",
+      "DisplayOrder": "290",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0175",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0029",
+      "DisplayOrder": "300",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0176",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0106",
+      "DisplayOrder": "310",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0177",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0030",
+      "DisplayOrder": "320",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0178",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0031",
+      "DisplayOrder": "330",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0179",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0032",
+      "DisplayOrder": "340",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0180",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0033",
+      "DisplayOrder": "350",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0181",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0034",
+      "DisplayOrder": "360",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0182",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0035",
+      "DisplayOrder": "370",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0183",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0036",
+      "DisplayOrder": "380",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0184",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0037",
+      "DisplayOrder": "390",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0185",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0038",
+      "DisplayOrder": "400",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0186",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0039",
+      "DisplayOrder": "410",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0187",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0040",
+      "DisplayOrder": "420",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0188",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0041",
+      "DisplayOrder": "430",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0189",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0042",
+      "DisplayOrder": "440",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0190",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0043",
+      "DisplayOrder": "450",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0191",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0044",
+      "DisplayOrder": "460",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0192",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0045",
+      "DisplayOrder": "470",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0193",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0046",
+      "DisplayOrder": "480",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0194",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0047",
+      "DisplayOrder": "490",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0195",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0048",
+      "DisplayOrder": "500",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0196",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0049",
+      "DisplayOrder": "510",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0197",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0050",
+      "DisplayOrder": "520",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0198",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0051",
+      "DisplayOrder": "530",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0199",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0052",
+      "DisplayOrder": "540",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0200",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0053",
+      "DisplayOrder": "550",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0201",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0054",
+      "DisplayOrder": "560",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0202",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0055",
+      "DisplayOrder": "570",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0203",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0107",
+      "DisplayOrder": "580",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0204",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0108",
+      "DisplayOrder": "590",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0205",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0109",
+      "DisplayOrder": "600",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0206",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0110",
+      "DisplayOrder": "610",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0207",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0111",
+      "DisplayOrder": "620",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0208",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0112",
+      "DisplayOrder": "630",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0209",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0113",
+      "DisplayOrder": "640",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0210",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0114",
+      "DisplayOrder": "650",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0211",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0115",
+      "DisplayOrder": "660",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0212",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0116",
+      "DisplayOrder": "670",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0213",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0117",
+      "DisplayOrder": "680",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0214",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0118",
+      "DisplayOrder": "690",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0215",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0056",
+      "DisplayOrder": "700",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0216",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0057",
+      "DisplayOrder": "710",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0217",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0058",
+      "DisplayOrder": "720",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0218",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0059",
+      "DisplayOrder": "730",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0219",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0060",
+      "DisplayOrder": "740",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0220",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0061",
+      "DisplayOrder": "750",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0221",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0062",
+      "DisplayOrder": "760",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0222",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0063",
+      "DisplayOrder": "770",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0223",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0064",
+      "DisplayOrder": "780",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0224",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0065",
+      "DisplayOrder": "790",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0225",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0066",
+      "DisplayOrder": "800",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0226",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0067",
+      "DisplayOrder": "810",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0227",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0068",
+      "DisplayOrder": "820",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0228",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0069",
+      "DisplayOrder": "830",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0229",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0070",
+      "DisplayOrder": "840",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0230",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0071",
+      "DisplayOrder": "850",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0231",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0072",
+      "DisplayOrder": "860",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0232",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0073",
+      "DisplayOrder": "870",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0233",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0074",
+      "DisplayOrder": "880",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0234",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0075",
+      "DisplayOrder": "890",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0235",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0076",
+      "DisplayOrder": "900",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0236",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0077",
+      "DisplayOrder": "910",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0237",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0078",
+      "DisplayOrder": "920",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0238",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0079",
+      "DisplayOrder": "930",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0239",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0080",
+      "DisplayOrder": "940",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0240",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0081",
+      "DisplayOrder": "950",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0241",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0082",
+      "DisplayOrder": "960",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0242",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0083",
+      "DisplayOrder": "970",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0243",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0084",
+      "DisplayOrder": "980",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0244",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0085",
+      "DisplayOrder": "990",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0245",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0086",
+      "DisplayOrder": "1000",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0246",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0087",
+      "DisplayOrder": "1010",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0247",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0088",
+      "DisplayOrder": "1020",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0248",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0089",
+      "DisplayOrder": "1030",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0249",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0090",
+      "DisplayOrder": "1040",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0250",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0091",
+      "DisplayOrder": "1050",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0251",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0092",
+      "DisplayOrder": "1060",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0252",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0093",
+      "DisplayOrder": "1070",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0253",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0094",
+      "DisplayOrder": "1080",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0254",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0095",
+      "DisplayOrder": "1090",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0255",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0096",
+      "DisplayOrder": "1100",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0256",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0097",
+      "DisplayOrder": "1110",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0257",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0098",
+      "DisplayOrder": "1120",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0258",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0099",
+      "DisplayOrder": "1130",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0259",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0100",
+      "DisplayOrder": "1140",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0260",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0101",
+      "DisplayOrder": "1150",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0261",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0102",
+      "DisplayOrder": "1160",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0262",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0103",
+      "DisplayOrder": "1170",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0263",
+      "CategoryID": "CAT-003",
+      "SymptomID": "SYM-0104",
+      "DisplayOrder": "1180",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0264",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0001",
+      "DisplayOrder": "10",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0265",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0002",
+      "DisplayOrder": "20",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0266",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0003",
+      "DisplayOrder": "30",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0267",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0004",
+      "DisplayOrder": "40",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0268",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0005",
+      "DisplayOrder": "50",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0269",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0006",
+      "DisplayOrder": "60",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0270",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0007",
+      "DisplayOrder": "70",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0271",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0008",
+      "DisplayOrder": "80",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0272",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0009",
+      "DisplayOrder": "90",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0273",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0010",
+      "DisplayOrder": "100",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0274",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0011",
+      "DisplayOrder": "110",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0275",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0012",
+      "DisplayOrder": "120",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0276",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0013",
+      "DisplayOrder": "130",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0277",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0105",
+      "DisplayOrder": "140",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0278",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0014",
+      "DisplayOrder": "150",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0279",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0015",
+      "DisplayOrder": "160",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0280",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0016",
+      "DisplayOrder": "170",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0281",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0017",
+      "DisplayOrder": "180",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0282",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0018",
+      "DisplayOrder": "190",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0283",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0019",
+      "DisplayOrder": "200",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0284",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0020",
+      "DisplayOrder": "210",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0285",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0021",
+      "DisplayOrder": "220",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0286",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0022",
+      "DisplayOrder": "230",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0287",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0023",
+      "DisplayOrder": "240",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0288",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0024",
+      "DisplayOrder": "250",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0289",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0025",
+      "DisplayOrder": "260",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0290",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0026",
+      "DisplayOrder": "270",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0291",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0027",
+      "DisplayOrder": "280",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0292",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0028",
+      "DisplayOrder": "290",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0293",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0029",
+      "DisplayOrder": "300",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0294",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0106",
+      "DisplayOrder": "310",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0295",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0030",
+      "DisplayOrder": "320",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0296",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0031",
+      "DisplayOrder": "330",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0297",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0032",
+      "DisplayOrder": "340",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0298",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0033",
+      "DisplayOrder": "350",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0299",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0034",
+      "DisplayOrder": "360",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0300",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0035",
+      "DisplayOrder": "370",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0301",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0036",
+      "DisplayOrder": "380",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0302",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0037",
+      "DisplayOrder": "390",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0303",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0038",
+      "DisplayOrder": "400",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0304",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0039",
+      "DisplayOrder": "410",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0305",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0040",
+      "DisplayOrder": "420",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0306",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0041",
+      "DisplayOrder": "430",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0307",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0042",
+      "DisplayOrder": "440",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0308",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0043",
+      "DisplayOrder": "450",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0309",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0044",
+      "DisplayOrder": "460",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0310",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0045",
+      "DisplayOrder": "470",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0311",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0046",
+      "DisplayOrder": "480",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0312",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0047",
+      "DisplayOrder": "490",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0313",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0048",
+      "DisplayOrder": "500",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0314",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0049",
+      "DisplayOrder": "510",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0315",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0050",
+      "DisplayOrder": "520",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0316",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0051",
+      "DisplayOrder": "530",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0317",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0052",
+      "DisplayOrder": "540",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0318",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0053",
+      "DisplayOrder": "550",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0319",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0054",
+      "DisplayOrder": "560",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0320",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0055",
+      "DisplayOrder": "570",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0321",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0107",
+      "DisplayOrder": "580",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0322",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0108",
+      "DisplayOrder": "590",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0323",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0109",
+      "DisplayOrder": "600",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0324",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0110",
+      "DisplayOrder": "610",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0325",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0111",
+      "DisplayOrder": "620",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0326",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0112",
+      "DisplayOrder": "630",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0327",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0113",
+      "DisplayOrder": "640",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0328",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0114",
+      "DisplayOrder": "650",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0329",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0115",
+      "DisplayOrder": "660",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0330",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0116",
+      "DisplayOrder": "670",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0331",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0117",
+      "DisplayOrder": "680",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0332",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0118",
+      "DisplayOrder": "690",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0333",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0056",
+      "DisplayOrder": "700",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0334",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0057",
+      "DisplayOrder": "710",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0335",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0058",
+      "DisplayOrder": "720",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0336",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0059",
+      "DisplayOrder": "730",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0337",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0060",
+      "DisplayOrder": "740",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0338",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0061",
+      "DisplayOrder": "750",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0339",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0062",
+      "DisplayOrder": "760",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0340",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0063",
+      "DisplayOrder": "770",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0341",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0064",
+      "DisplayOrder": "780",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0342",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0065",
+      "DisplayOrder": "790",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0343",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0066",
+      "DisplayOrder": "800",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0344",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0067",
+      "DisplayOrder": "810",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0345",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0068",
+      "DisplayOrder": "820",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0346",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0069",
+      "DisplayOrder": "830",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0347",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0070",
+      "DisplayOrder": "840",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0348",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0071",
+      "DisplayOrder": "850",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0349",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0072",
+      "DisplayOrder": "860",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0350",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0073",
+      "DisplayOrder": "870",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0351",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0074",
+      "DisplayOrder": "880",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0352",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0075",
+      "DisplayOrder": "890",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0353",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0076",
+      "DisplayOrder": "900",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0354",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0077",
+      "DisplayOrder": "910",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0355",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0078",
+      "DisplayOrder": "920",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0356",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0079",
+      "DisplayOrder": "930",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0357",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0080",
+      "DisplayOrder": "940",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0358",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0081",
+      "DisplayOrder": "950",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0359",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0082",
+      "DisplayOrder": "960",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0360",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0083",
+      "DisplayOrder": "970",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0361",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0084",
+      "DisplayOrder": "980",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0362",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0085",
+      "DisplayOrder": "990",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0363",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0086",
+      "DisplayOrder": "1000",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0364",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0087",
+      "DisplayOrder": "1010",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0365",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0088",
+      "DisplayOrder": "1020",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0366",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0089",
+      "DisplayOrder": "1030",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0367",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0090",
+      "DisplayOrder": "1040",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0368",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0091",
+      "DisplayOrder": "1050",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0369",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0092",
+      "DisplayOrder": "1060",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0370",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0093",
+      "DisplayOrder": "1070",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0371",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0094",
+      "DisplayOrder": "1080",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0372",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0095",
+      "DisplayOrder": "1090",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0373",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0096",
+      "DisplayOrder": "1100",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0374",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0097",
+      "DisplayOrder": "1110",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0375",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0098",
+      "DisplayOrder": "1120",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0376",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0099",
+      "DisplayOrder": "1130",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0377",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0100",
+      "DisplayOrder": "1140",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0378",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0101",
+      "DisplayOrder": "1150",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0379",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0102",
+      "DisplayOrder": "1160",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0380",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0103",
+      "DisplayOrder": "1170",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0381",
+      "CategoryID": "CAT-004",
+      "SymptomID": "SYM-0104",
+      "DisplayOrder": "1180",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0382",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0001",
+      "DisplayOrder": "10",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0383",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0002",
+      "DisplayOrder": "20",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0384",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0003",
+      "DisplayOrder": "30",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0385",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0004",
+      "DisplayOrder": "40",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0386",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0005",
+      "DisplayOrder": "50",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0387",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0006",
+      "DisplayOrder": "60",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0388",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0007",
+      "DisplayOrder": "70",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0389",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0008",
+      "DisplayOrder": "80",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0390",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0009",
+      "DisplayOrder": "90",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0391",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0010",
+      "DisplayOrder": "100",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0392",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0011",
+      "DisplayOrder": "110",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0393",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0012",
+      "DisplayOrder": "120",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0394",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0013",
+      "DisplayOrder": "130",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0395",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0105",
+      "DisplayOrder": "140",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0396",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0014",
+      "DisplayOrder": "150",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0397",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0015",
+      "DisplayOrder": "160",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0398",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0016",
+      "DisplayOrder": "170",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0399",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0017",
+      "DisplayOrder": "180",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0400",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0018",
+      "DisplayOrder": "190",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0401",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0019",
+      "DisplayOrder": "200",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0402",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0020",
+      "DisplayOrder": "210",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0403",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0021",
+      "DisplayOrder": "220",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0404",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0022",
+      "DisplayOrder": "230",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0405",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0023",
+      "DisplayOrder": "240",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0406",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0024",
+      "DisplayOrder": "250",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0407",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0025",
+      "DisplayOrder": "260",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0408",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0026",
+      "DisplayOrder": "270",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0409",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0027",
+      "DisplayOrder": "280",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0410",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0028",
+      "DisplayOrder": "290",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0411",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0029",
+      "DisplayOrder": "300",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0412",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0106",
+      "DisplayOrder": "310",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0413",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0030",
+      "DisplayOrder": "320",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0414",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0031",
+      "DisplayOrder": "330",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0415",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0032",
+      "DisplayOrder": "340",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0416",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0033",
+      "DisplayOrder": "350",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0417",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0034",
+      "DisplayOrder": "360",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0418",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0035",
+      "DisplayOrder": "370",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0419",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0036",
+      "DisplayOrder": "380",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0420",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0037",
+      "DisplayOrder": "390",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0421",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0038",
+      "DisplayOrder": "400",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0422",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0039",
+      "DisplayOrder": "410",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0423",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0040",
+      "DisplayOrder": "420",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0424",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0041",
+      "DisplayOrder": "430",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0425",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0042",
+      "DisplayOrder": "440",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0426",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0043",
+      "DisplayOrder": "450",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0427",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0044",
+      "DisplayOrder": "460",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0428",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0045",
+      "DisplayOrder": "470",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0429",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0046",
+      "DisplayOrder": "480",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0430",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0047",
+      "DisplayOrder": "490",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0431",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0048",
+      "DisplayOrder": "500",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0432",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0049",
+      "DisplayOrder": "510",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0433",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0050",
+      "DisplayOrder": "520",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0434",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0051",
+      "DisplayOrder": "530",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0435",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0052",
+      "DisplayOrder": "540",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0436",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0053",
+      "DisplayOrder": "550",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0437",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0054",
+      "DisplayOrder": "560",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0438",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0055",
+      "DisplayOrder": "570",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0439",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0107",
+      "DisplayOrder": "580",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0440",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0108",
+      "DisplayOrder": "590",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0441",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0109",
+      "DisplayOrder": "600",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0442",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0110",
+      "DisplayOrder": "610",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0443",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0111",
+      "DisplayOrder": "620",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0444",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0112",
+      "DisplayOrder": "630",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0445",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0113",
+      "DisplayOrder": "640",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0446",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0114",
+      "DisplayOrder": "650",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0447",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0115",
+      "DisplayOrder": "660",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0448",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0116",
+      "DisplayOrder": "670",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0449",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0117",
+      "DisplayOrder": "680",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0450",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0118",
+      "DisplayOrder": "690",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0451",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0056",
+      "DisplayOrder": "700",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0452",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0057",
+      "DisplayOrder": "710",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0453",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0058",
+      "DisplayOrder": "720",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0454",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0059",
+      "DisplayOrder": "730",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0455",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0060",
+      "DisplayOrder": "740",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0456",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0061",
+      "DisplayOrder": "750",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0457",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0062",
+      "DisplayOrder": "760",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0458",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0063",
+      "DisplayOrder": "770",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0459",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0064",
+      "DisplayOrder": "780",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0460",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0065",
+      "DisplayOrder": "790",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0461",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0066",
+      "DisplayOrder": "800",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0462",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0067",
+      "DisplayOrder": "810",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0463",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0068",
+      "DisplayOrder": "820",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0464",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0069",
+      "DisplayOrder": "830",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0465",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0070",
+      "DisplayOrder": "840",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0466",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0071",
+      "DisplayOrder": "850",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0467",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0072",
+      "DisplayOrder": "860",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0468",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0073",
+      "DisplayOrder": "870",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0469",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0074",
+      "DisplayOrder": "880",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0470",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0075",
+      "DisplayOrder": "890",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0471",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0076",
+      "DisplayOrder": "900",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0472",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0077",
+      "DisplayOrder": "910",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0473",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0078",
+      "DisplayOrder": "920",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0474",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0079",
+      "DisplayOrder": "930",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0475",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0080",
+      "DisplayOrder": "940",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0476",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0081",
+      "DisplayOrder": "950",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0477",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0097",
+      "DisplayOrder": "960",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0478",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0098",
+      "DisplayOrder": "970",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0479",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0099",
+      "DisplayOrder": "980",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0480",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0100",
+      "DisplayOrder": "990",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0481",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0101",
+      "DisplayOrder": "1000",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0482",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0102",
+      "DisplayOrder": "1010",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0483",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0103",
+      "DisplayOrder": "1020",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0484",
+      "CategoryID": "CAT-005",
+      "SymptomID": "SYM-0104",
+      "DisplayOrder": "1030",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0485",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0001",
+      "DisplayOrder": "10",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0486",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0002",
+      "DisplayOrder": "20",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0487",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0003",
+      "DisplayOrder": "30",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0488",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0004",
+      "DisplayOrder": "40",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0489",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0005",
+      "DisplayOrder": "50",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0490",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0006",
+      "DisplayOrder": "60",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0491",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0007",
+      "DisplayOrder": "70",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0492",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0008",
+      "DisplayOrder": "80",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0493",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0009",
+      "DisplayOrder": "90",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0494",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0010",
+      "DisplayOrder": "100",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0495",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0011",
+      "DisplayOrder": "110",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0496",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0012",
+      "DisplayOrder": "120",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0497",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0013",
+      "DisplayOrder": "130",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0498",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0105",
+      "DisplayOrder": "140",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0499",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0014",
+      "DisplayOrder": "150",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0500",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0015",
+      "DisplayOrder": "160",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0501",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0016",
+      "DisplayOrder": "170",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0502",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0017",
+      "DisplayOrder": "180",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0503",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0018",
+      "DisplayOrder": "190",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0504",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0019",
+      "DisplayOrder": "200",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0505",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0020",
+      "DisplayOrder": "210",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0506",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0021",
+      "DisplayOrder": "220",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0507",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0022",
+      "DisplayOrder": "230",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0508",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0023",
+      "DisplayOrder": "240",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0509",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0024",
+      "DisplayOrder": "250",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0510",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0025",
+      "DisplayOrder": "260",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0511",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0026",
+      "DisplayOrder": "270",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0512",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0027",
+      "DisplayOrder": "280",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0513",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0028",
+      "DisplayOrder": "290",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0514",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0029",
+      "DisplayOrder": "300",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0515",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0106",
+      "DisplayOrder": "310",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0516",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0030",
+      "DisplayOrder": "320",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0517",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0031",
+      "DisplayOrder": "330",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0518",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0032",
+      "DisplayOrder": "340",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0519",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0033",
+      "DisplayOrder": "350",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0520",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0034",
+      "DisplayOrder": "360",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0521",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0035",
+      "DisplayOrder": "370",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0522",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0036",
+      "DisplayOrder": "380",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0523",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0037",
+      "DisplayOrder": "390",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0524",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0038",
+      "DisplayOrder": "400",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0525",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0039",
+      "DisplayOrder": "410",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0526",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0040",
+      "DisplayOrder": "420",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0527",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0041",
+      "DisplayOrder": "430",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0528",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0042",
+      "DisplayOrder": "440",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0529",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0043",
+      "DisplayOrder": "450",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0530",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0044",
+      "DisplayOrder": "460",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0531",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0045",
+      "DisplayOrder": "470",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0532",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0046",
+      "DisplayOrder": "480",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0533",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0047",
+      "DisplayOrder": "490",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0534",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0048",
+      "DisplayOrder": "500",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0535",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0049",
+      "DisplayOrder": "510",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0536",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0050",
+      "DisplayOrder": "520",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0537",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0051",
+      "DisplayOrder": "530",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0538",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0052",
+      "DisplayOrder": "540",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0539",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0053",
+      "DisplayOrder": "550",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0540",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0054",
+      "DisplayOrder": "560",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0541",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0055",
+      "DisplayOrder": "570",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0542",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0107",
+      "DisplayOrder": "580",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0543",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0108",
+      "DisplayOrder": "590",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0544",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0109",
+      "DisplayOrder": "600",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0545",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0110",
+      "DisplayOrder": "610",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0546",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0111",
+      "DisplayOrder": "620",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0547",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0112",
+      "DisplayOrder": "630",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0548",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0113",
+      "DisplayOrder": "640",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0549",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0114",
+      "DisplayOrder": "650",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0550",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0115",
+      "DisplayOrder": "660",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0551",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0116",
+      "DisplayOrder": "670",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0552",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0117",
+      "DisplayOrder": "680",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0553",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0118",
+      "DisplayOrder": "690",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0554",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0056",
+      "DisplayOrder": "700",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0555",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0057",
+      "DisplayOrder": "710",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0556",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0058",
+      "DisplayOrder": "720",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0557",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0059",
+      "DisplayOrder": "730",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0558",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0060",
+      "DisplayOrder": "740",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0559",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0061",
+      "DisplayOrder": "750",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0560",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0062",
+      "DisplayOrder": "760",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0561",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0063",
+      "DisplayOrder": "770",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0562",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0064",
+      "DisplayOrder": "780",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0563",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0065",
+      "DisplayOrder": "790",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0564",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0066",
+      "DisplayOrder": "800",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0565",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0067",
+      "DisplayOrder": "810",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0566",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0068",
+      "DisplayOrder": "820",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0567",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0069",
+      "DisplayOrder": "830",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0568",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0070",
+      "DisplayOrder": "840",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0569",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0071",
+      "DisplayOrder": "850",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0570",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0072",
+      "DisplayOrder": "860",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0571",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0073",
+      "DisplayOrder": "870",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0572",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0074",
+      "DisplayOrder": "880",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0573",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0075",
+      "DisplayOrder": "890",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0574",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0076",
+      "DisplayOrder": "900",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0575",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0077",
+      "DisplayOrder": "910",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0576",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0078",
+      "DisplayOrder": "920",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0577",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0079",
+      "DisplayOrder": "930",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0578",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0080",
+      "DisplayOrder": "940",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0579",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0081",
+      "DisplayOrder": "950",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0580",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0097",
+      "DisplayOrder": "960",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0581",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0098",
+      "DisplayOrder": "970",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0582",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0099",
+      "DisplayOrder": "980",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0583",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0100",
+      "DisplayOrder": "990",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0584",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0101",
+      "DisplayOrder": "1000",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0585",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0102",
+      "DisplayOrder": "1010",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0586",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0103",
+      "DisplayOrder": "1020",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0587",
+      "CategoryID": "CAT-006",
+      "SymptomID": "SYM-0104",
+      "DisplayOrder": "1030",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0588",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0001",
+      "DisplayOrder": "10",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0589",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0002",
+      "DisplayOrder": "20",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0590",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0003",
+      "DisplayOrder": "30",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0591",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0004",
+      "DisplayOrder": "40",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0592",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0005",
+      "DisplayOrder": "50",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0593",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0006",
+      "DisplayOrder": "60",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0594",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0007",
+      "DisplayOrder": "70",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0595",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0008",
+      "DisplayOrder": "80",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0596",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0009",
+      "DisplayOrder": "90",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0597",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0010",
+      "DisplayOrder": "100",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0598",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0011",
+      "DisplayOrder": "110",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0599",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0012",
+      "DisplayOrder": "120",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0600",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0013",
+      "DisplayOrder": "130",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0601",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0105",
+      "DisplayOrder": "140",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0602",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0014",
+      "DisplayOrder": "150",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0603",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0015",
+      "DisplayOrder": "160",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0604",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0016",
+      "DisplayOrder": "170",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0605",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0017",
+      "DisplayOrder": "180",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0606",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0018",
+      "DisplayOrder": "190",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0607",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0019",
+      "DisplayOrder": "200",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0608",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0020",
+      "DisplayOrder": "210",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0609",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0021",
+      "DisplayOrder": "220",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0610",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0022",
+      "DisplayOrder": "230",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0611",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0023",
+      "DisplayOrder": "240",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0612",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0024",
+      "DisplayOrder": "250",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0613",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0025",
+      "DisplayOrder": "260",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0614",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0026",
+      "DisplayOrder": "270",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0615",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0027",
+      "DisplayOrder": "280",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0616",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0028",
+      "DisplayOrder": "290",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0617",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0029",
+      "DisplayOrder": "300",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0618",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0106",
+      "DisplayOrder": "310",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0619",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0030",
+      "DisplayOrder": "320",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0620",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0031",
+      "DisplayOrder": "330",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0621",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0032",
+      "DisplayOrder": "340",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0622",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0033",
+      "DisplayOrder": "350",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0623",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0034",
+      "DisplayOrder": "360",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0624",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0035",
+      "DisplayOrder": "370",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0625",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0036",
+      "DisplayOrder": "380",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0626",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0037",
+      "DisplayOrder": "390",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0627",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0038",
+      "DisplayOrder": "400",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0628",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0039",
+      "DisplayOrder": "410",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0629",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0040",
+      "DisplayOrder": "420",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0630",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0041",
+      "DisplayOrder": "430",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0631",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0042",
+      "DisplayOrder": "440",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0632",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0043",
+      "DisplayOrder": "450",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0633",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0044",
+      "DisplayOrder": "460",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0634",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0045",
+      "DisplayOrder": "470",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0635",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0046",
+      "DisplayOrder": "480",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0636",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0047",
+      "DisplayOrder": "490",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0637",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0048",
+      "DisplayOrder": "500",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0638",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0049",
+      "DisplayOrder": "510",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0639",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0050",
+      "DisplayOrder": "520",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0640",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0051",
+      "DisplayOrder": "530",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0641",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0052",
+      "DisplayOrder": "540",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0642",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0053",
+      "DisplayOrder": "550",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0643",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0054",
+      "DisplayOrder": "560",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0644",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0055",
+      "DisplayOrder": "570",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0645",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0107",
+      "DisplayOrder": "580",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0646",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0108",
+      "DisplayOrder": "590",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0647",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0109",
+      "DisplayOrder": "600",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0648",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0110",
+      "DisplayOrder": "610",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0649",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0111",
+      "DisplayOrder": "620",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0650",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0112",
+      "DisplayOrder": "630",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0651",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0113",
+      "DisplayOrder": "640",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0652",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0114",
+      "DisplayOrder": "650",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0653",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0115",
+      "DisplayOrder": "660",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0654",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0116",
+      "DisplayOrder": "670",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0655",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0117",
+      "DisplayOrder": "680",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0656",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0118",
+      "DisplayOrder": "690",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0657",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0056",
+      "DisplayOrder": "700",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0658",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0057",
+      "DisplayOrder": "710",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0659",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0058",
+      "DisplayOrder": "720",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0660",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0059",
+      "DisplayOrder": "730",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0661",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0060",
+      "DisplayOrder": "740",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0662",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0061",
+      "DisplayOrder": "750",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0663",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0062",
+      "DisplayOrder": "760",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0664",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0063",
+      "DisplayOrder": "770",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0665",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0064",
+      "DisplayOrder": "780",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0666",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0065",
+      "DisplayOrder": "790",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0667",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0066",
+      "DisplayOrder": "800",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0668",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0067",
+      "DisplayOrder": "810",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0669",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0068",
+      "DisplayOrder": "820",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0670",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0069",
+      "DisplayOrder": "830",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0671",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0070",
+      "DisplayOrder": "840",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0672",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0071",
+      "DisplayOrder": "850",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0673",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0072",
+      "DisplayOrder": "860",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0674",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0073",
+      "DisplayOrder": "870",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0675",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0074",
+      "DisplayOrder": "880",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0676",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0075",
+      "DisplayOrder": "890",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0677",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0076",
+      "DisplayOrder": "900",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0678",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0077",
+      "DisplayOrder": "910",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0679",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0078",
+      "DisplayOrder": "920",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0680",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0079",
+      "DisplayOrder": "930",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0681",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0080",
+      "DisplayOrder": "940",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0682",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0081",
+      "DisplayOrder": "950",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0683",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0097",
+      "DisplayOrder": "960",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0684",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0098",
+      "DisplayOrder": "970",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0685",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0099",
+      "DisplayOrder": "980",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0686",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0100",
+      "DisplayOrder": "990",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0687",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0101",
+      "DisplayOrder": "1000",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0688",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0102",
+      "DisplayOrder": "1010",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0689",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0103",
+      "DisplayOrder": "1020",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0690",
+      "CategoryID": "CAT-007",
+      "SymptomID": "SYM-0104",
+      "DisplayOrder": "1030",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0691",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0001",
+      "DisplayOrder": "10",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0692",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0002",
+      "DisplayOrder": "20",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0693",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0003",
+      "DisplayOrder": "30",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0694",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0004",
+      "DisplayOrder": "40",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0695",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0005",
+      "DisplayOrder": "50",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0696",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0006",
+      "DisplayOrder": "60",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0697",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0007",
+      "DisplayOrder": "70",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0698",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0008",
+      "DisplayOrder": "80",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0699",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0009",
+      "DisplayOrder": "90",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0700",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0010",
+      "DisplayOrder": "100",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0701",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0011",
+      "DisplayOrder": "110",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0702",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0012",
+      "DisplayOrder": "120",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0703",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0013",
+      "DisplayOrder": "130",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0704",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0105",
+      "DisplayOrder": "140",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0705",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0014",
+      "DisplayOrder": "150",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0706",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0015",
+      "DisplayOrder": "160",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0707",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0016",
+      "DisplayOrder": "170",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0708",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0017",
+      "DisplayOrder": "180",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0709",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0018",
+      "DisplayOrder": "190",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0710",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0019",
+      "DisplayOrder": "200",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0711",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0020",
+      "DisplayOrder": "210",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0712",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0021",
+      "DisplayOrder": "220",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0713",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0022",
+      "DisplayOrder": "230",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0714",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0023",
+      "DisplayOrder": "240",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0715",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0024",
+      "DisplayOrder": "250",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0716",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0025",
+      "DisplayOrder": "260",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0717",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0026",
+      "DisplayOrder": "270",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0718",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0027",
+      "DisplayOrder": "280",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0719",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0028",
+      "DisplayOrder": "290",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0720",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0029",
+      "DisplayOrder": "300",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0721",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0106",
+      "DisplayOrder": "310",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0722",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0030",
+      "DisplayOrder": "320",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0723",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0031",
+      "DisplayOrder": "330",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0724",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0032",
+      "DisplayOrder": "340",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0725",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0033",
+      "DisplayOrder": "350",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0726",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0034",
+      "DisplayOrder": "360",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0727",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0035",
+      "DisplayOrder": "370",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0728",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0036",
+      "DisplayOrder": "380",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0729",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0037",
+      "DisplayOrder": "390",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0730",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0038",
+      "DisplayOrder": "400",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0731",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0039",
+      "DisplayOrder": "410",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0732",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0040",
+      "DisplayOrder": "420",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0733",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0041",
+      "DisplayOrder": "430",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0734",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0042",
+      "DisplayOrder": "440",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0735",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0043",
+      "DisplayOrder": "450",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0736",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0044",
+      "DisplayOrder": "460",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0737",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0045",
+      "DisplayOrder": "470",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0738",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0046",
+      "DisplayOrder": "480",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0739",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0047",
+      "DisplayOrder": "490",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0740",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0048",
+      "DisplayOrder": "500",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0741",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0049",
+      "DisplayOrder": "510",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0742",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0050",
+      "DisplayOrder": "520",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0743",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0051",
+      "DisplayOrder": "530",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0744",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0052",
+      "DisplayOrder": "540",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0745",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0053",
+      "DisplayOrder": "550",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0746",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0054",
+      "DisplayOrder": "560",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0747",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0055",
+      "DisplayOrder": "570",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0748",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0107",
+      "DisplayOrder": "580",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0749",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0108",
+      "DisplayOrder": "590",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0750",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0109",
+      "DisplayOrder": "600",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0751",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0110",
+      "DisplayOrder": "610",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0752",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0111",
+      "DisplayOrder": "620",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0753",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0112",
+      "DisplayOrder": "630",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0754",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0113",
+      "DisplayOrder": "640",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0755",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0114",
+      "DisplayOrder": "650",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0756",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0115",
+      "DisplayOrder": "660",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0757",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0116",
+      "DisplayOrder": "670",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0758",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0117",
+      "DisplayOrder": "680",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0759",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0118",
+      "DisplayOrder": "690",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0760",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0056",
+      "DisplayOrder": "700",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0761",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0057",
+      "DisplayOrder": "710",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0762",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0058",
+      "DisplayOrder": "720",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0763",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0059",
+      "DisplayOrder": "730",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0764",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0060",
+      "DisplayOrder": "740",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0765",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0061",
+      "DisplayOrder": "750",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0766",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0062",
+      "DisplayOrder": "760",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0767",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0063",
+      "DisplayOrder": "770",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0768",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0064",
+      "DisplayOrder": "780",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0769",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0065",
+      "DisplayOrder": "790",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0770",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0066",
+      "DisplayOrder": "800",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0771",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0067",
+      "DisplayOrder": "810",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0772",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0068",
+      "DisplayOrder": "820",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0773",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0069",
+      "DisplayOrder": "830",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0774",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0070",
+      "DisplayOrder": "840",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0775",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0071",
+      "DisplayOrder": "850",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0776",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0072",
+      "DisplayOrder": "860",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0777",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0073",
+      "DisplayOrder": "870",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0778",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0074",
+      "DisplayOrder": "880",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0779",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0075",
+      "DisplayOrder": "890",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0780",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0076",
+      "DisplayOrder": "900",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0781",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0077",
+      "DisplayOrder": "910",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0782",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0078",
+      "DisplayOrder": "920",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0783",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0079",
+      "DisplayOrder": "930",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0784",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0080",
+      "DisplayOrder": "940",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0785",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0081",
+      "DisplayOrder": "950",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0786",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0097",
+      "DisplayOrder": "960",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0787",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0098",
+      "DisplayOrder": "970",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0788",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0099",
+      "DisplayOrder": "980",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0789",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0100",
+      "DisplayOrder": "990",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0790",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0101",
+      "DisplayOrder": "1000",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0791",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0102",
+      "DisplayOrder": "1010",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0792",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0103",
+      "DisplayOrder": "1020",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0793",
+      "CategoryID": "CAT-008",
+      "SymptomID": "SYM-0104",
+      "DisplayOrder": "1030",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0794",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0001",
+      "DisplayOrder": "10",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0795",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0002",
+      "DisplayOrder": "20",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0796",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0003",
+      "DisplayOrder": "30",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0797",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0004",
+      "DisplayOrder": "40",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0798",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0005",
+      "DisplayOrder": "50",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0799",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0006",
+      "DisplayOrder": "60",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0800",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0007",
+      "DisplayOrder": "70",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0801",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0008",
+      "DisplayOrder": "80",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0802",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0009",
+      "DisplayOrder": "90",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0803",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0010",
+      "DisplayOrder": "100",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0804",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0011",
+      "DisplayOrder": "110",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0805",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0012",
+      "DisplayOrder": "120",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0806",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0013",
+      "DisplayOrder": "130",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0807",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0105",
+      "DisplayOrder": "140",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0808",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0014",
+      "DisplayOrder": "150",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0809",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0015",
+      "DisplayOrder": "160",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0810",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0016",
+      "DisplayOrder": "170",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0811",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0017",
+      "DisplayOrder": "180",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0812",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0018",
+      "DisplayOrder": "190",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0813",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0019",
+      "DisplayOrder": "200",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0814",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0020",
+      "DisplayOrder": "210",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0815",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0021",
+      "DisplayOrder": "220",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0816",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0022",
+      "DisplayOrder": "230",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0817",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0023",
+      "DisplayOrder": "240",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0818",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0024",
+      "DisplayOrder": "250",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0819",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0025",
+      "DisplayOrder": "260",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0820",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0026",
+      "DisplayOrder": "270",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0821",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0027",
+      "DisplayOrder": "280",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0822",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0028",
+      "DisplayOrder": "290",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0823",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0029",
+      "DisplayOrder": "300",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0824",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0106",
+      "DisplayOrder": "310",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0825",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0030",
+      "DisplayOrder": "320",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0826",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0031",
+      "DisplayOrder": "330",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0827",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0032",
+      "DisplayOrder": "340",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0828",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0033",
+      "DisplayOrder": "350",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0829",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0034",
+      "DisplayOrder": "360",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0830",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0035",
+      "DisplayOrder": "370",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0831",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0036",
+      "DisplayOrder": "380",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0832",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0037",
+      "DisplayOrder": "390",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0833",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0038",
+      "DisplayOrder": "400",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0834",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0039",
+      "DisplayOrder": "410",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0835",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0040",
+      "DisplayOrder": "420",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0836",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0041",
+      "DisplayOrder": "430",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0837",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0042",
+      "DisplayOrder": "440",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0838",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0043",
+      "DisplayOrder": "450",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0839",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0044",
+      "DisplayOrder": "460",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0840",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0045",
+      "DisplayOrder": "470",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0841",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0046",
+      "DisplayOrder": "480",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0842",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0047",
+      "DisplayOrder": "490",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0843",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0048",
+      "DisplayOrder": "500",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0844",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0049",
+      "DisplayOrder": "510",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0845",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0050",
+      "DisplayOrder": "520",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0846",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0051",
+      "DisplayOrder": "530",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0847",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0052",
+      "DisplayOrder": "540",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0848",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0053",
+      "DisplayOrder": "550",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0849",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0054",
+      "DisplayOrder": "560",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0850",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0055",
+      "DisplayOrder": "570",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0851",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0107",
+      "DisplayOrder": "580",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0852",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0108",
+      "DisplayOrder": "590",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0853",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0109",
+      "DisplayOrder": "600",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0854",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0110",
+      "DisplayOrder": "610",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0855",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0111",
+      "DisplayOrder": "620",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0856",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0112",
+      "DisplayOrder": "630",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0857",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0113",
+      "DisplayOrder": "640",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0858",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0114",
+      "DisplayOrder": "650",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0859",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0115",
+      "DisplayOrder": "660",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0860",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0116",
+      "DisplayOrder": "670",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0861",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0117",
+      "DisplayOrder": "680",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0862",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0118",
+      "DisplayOrder": "690",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0863",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0056",
+      "DisplayOrder": "700",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0864",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0057",
+      "DisplayOrder": "710",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0865",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0058",
+      "DisplayOrder": "720",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0866",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0059",
+      "DisplayOrder": "730",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0867",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0060",
+      "DisplayOrder": "740",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0868",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0061",
+      "DisplayOrder": "750",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0869",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0062",
+      "DisplayOrder": "760",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0870",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0063",
+      "DisplayOrder": "770",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0871",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0064",
+      "DisplayOrder": "780",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0872",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0065",
+      "DisplayOrder": "790",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0873",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0066",
+      "DisplayOrder": "800",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0874",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0067",
+      "DisplayOrder": "810",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0875",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0068",
+      "DisplayOrder": "820",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0876",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0069",
+      "DisplayOrder": "830",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0877",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0070",
+      "DisplayOrder": "840",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0878",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0071",
+      "DisplayOrder": "850",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0879",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0072",
+      "DisplayOrder": "860",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0880",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0073",
+      "DisplayOrder": "870",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0881",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0074",
+      "DisplayOrder": "880",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0882",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0075",
+      "DisplayOrder": "890",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0883",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0076",
+      "DisplayOrder": "900",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0884",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0077",
+      "DisplayOrder": "910",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0885",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0078",
+      "DisplayOrder": "920",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0886",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0079",
+      "DisplayOrder": "930",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0887",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0080",
+      "DisplayOrder": "940",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0888",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0081",
+      "DisplayOrder": "950",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0889",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0097",
+      "DisplayOrder": "960",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0890",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0098",
+      "DisplayOrder": "970",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0891",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0099",
+      "DisplayOrder": "980",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0892",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0100",
+      "DisplayOrder": "990",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0893",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0101",
+      "DisplayOrder": "1000",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0894",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0102",
+      "DisplayOrder": "1010",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0895",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0103",
+      "DisplayOrder": "1020",
+      "Active": "TRUE"
+    },
+    {
+      "AssessmentSymptomID": "ASM-0896",
+      "CategoryID": "CAT-009",
+      "SymptomID": "SYM-0104",
+      "DisplayOrder": "1030",
+      "Active": "TRUE"
     }
   ]
 }

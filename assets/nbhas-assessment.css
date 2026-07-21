@@ -250,3 +250,29 @@
 .nbhas-complete-screen .nbhas-contact-card h3 {
     color: var(--nb-secondary);
 }
+#nb-assessment-options {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  align-items: stretch;
+}
+
+#nb-assessment-options > h2 {
+  grid-column: 1 / -1;
+  margin: 0 0 18px;
+  text-align: center;
+}
+
+#nb-assessment-options .nb-assessment-card {
+  width: 100%;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 900px) {
+  #nb-assessment-options {
+    grid-template-columns: 1fr;
+  }
+
+  #nb-assessment-options > h2 {
+    grid-column: auto;
+  }
+}
