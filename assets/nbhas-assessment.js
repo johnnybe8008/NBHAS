@@ -8,7 +8,7 @@
  *   controller/
  *
  * Generated:
- *   2026-07-21T10:00:41.709Z
+ *   2026-07-21T14:37:56.338Z
  *
  ******************************************************************************/
 
@@ -2012,6 +2012,24 @@ NBHAS.completedAssessment = {
             engineResults,
             'nbhas-results'
         );
+
+        const editAnswersButton =
+    document.getElementById(
+        'nbhas-edit-answers'
+    );
+
+if (editAnswersButton) {
+
+    editAnswersButton.addEventListener(
+        'click',
+        function () {
+
+            goToSection(0);
+
+        }
+    );
+
+}
 
     } else if (
         window.NBHASRenderer &&

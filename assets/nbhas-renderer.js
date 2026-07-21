@@ -26,6 +26,7 @@ function renderDashboard(result, targetId) {
     </div>
   `;
   loadProductImages();
+
   document
     .getElementById('nbhas-start-again')
     ?.addEventListener('click', function () {
@@ -39,6 +40,38 @@ function renderDashboard(result, targetId) {
       window.location.reload();
 
     });
+
+    document
+    .getElementById('nbhas-download-report')
+    ?.addEventListener('click', function (event) {
+
+        event.preventDefault();
+
+        if (
+            !window.NBHAS ||
+            !NBHAS.reportRenderer ||
+            typeof NBHAS.reportRenderer.render !== 'function'
+        ) {
+            console.error(
+                'NBHAS report renderer is not available.'
+            );
+            return;
+        }
+
+        NBHAS.reportRenderer.render();
+
+        const report =
+            document.getElementById(
+                'nbhas-hidden-report'
+            );
+
+        console.log(
+            'NBHAS hidden report:',
+            report
+        );
+
+    });
+    
 }
 
 function renderAssessment(result, targetId) {
@@ -271,6 +304,14 @@ function renderNextStepsCard(result) {
           <button
             type="button"
             class="nbhas-button nbhas-button-secondary"
+            id="nbhas-edit-answers"
+            data-action="edit-answers">
+            Edit My Answers
+          </button>
+
+          <button
+            type="button"
+            class="nbhas-button nbhas-button-secondary"
             id="nbhas-start-again"
             data-action="start-again">
             Start Again
@@ -296,5 +337,3 @@ if (typeof window !== "undefined") {
   window.renderDashboard = renderDashboard;
   window.renderAssessment = renderAssessment;
 }
-
-NBHAS.reportRenderer.render();

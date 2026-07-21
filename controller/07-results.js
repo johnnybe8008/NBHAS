@@ -349,6 +349,24 @@ NBHAS.completedAssessment = {
             'nbhas-results'
         );
 
+        const editAnswersButton =
+    document.getElementById(
+        'nbhas-edit-answers'
+    );
+
+if (editAnswersButton) {
+
+    editAnswersButton.addEventListener(
+        'click',
+        function () {
+
+            goToSection(0);
+
+        }
+    );
+
+}
+
     } else if (
         window.NBHASRenderer &&
         typeof window.NBHASRenderer.render ===
