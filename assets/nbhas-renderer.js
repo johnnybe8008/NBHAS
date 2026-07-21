@@ -250,31 +250,33 @@ function renderNextStepsCard(result) {
         Next Steps
       </h3>
 
-      <div class="nbhas-button-row" style="display: flex; justify-content: center; gap: 10px;">
+        <div
+          class="nbhas-button-row"
+          style="display: flex; justify-content: center; gap: 10px;">
 
-        <a
-          class="nbhas-button nbhas-button-secondary"
-          href="#"
-          id="nbhas-download-report">
-          Download Report
-        </a>
+          <button
+            type="button"
+            class="nbhas-button nbhas-button-secondary"
+            id="nbhas-download-report">
+            Download Report
+          </button>
 
-        <a
-          class="nbhas-button nbhas-button-secondary"
-          href="#"
-          id="nbhas-email-results">
-          Email Results
-        </a>
+          <button
+            type="button"
+            class="nbhas-button nbhas-button-secondary"
+            id="nbhas-email-results">
+            Email Results
+          </button>
 
-        <button
-          type="button"
-          class="nbhas-button nbhas-button-secondary"
-          id="nbhas-start-again">
-          Start Again
-        </button>
+          <button
+            type="button"
+            class="nbhas-button nbhas-button-secondary"
+            id="nbhas-start-again"
+            data-action="start-again">
+            Start Again
+          </button>
 
-      </div>
-
+        </div>
     </div>
   `;
  
@@ -294,3 +296,5 @@ if (typeof window !== "undefined") {
   window.renderDashboard = renderDashboard;
   window.renderAssessment = renderAssessment;
 }
+
+NBHAS.reportRenderer.render();
