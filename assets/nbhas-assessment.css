@@ -1,0 +1,252 @@
+/* ======================================================
+   NBHAS Design Tokens
+   ====================================================== */
+
+:root {
+
+    --nb-radius: 10px;
+
+    --nb-shadow-small:
+        0 3px 10px rgba(0,0,0,.08);
+
+    --nb-shadow-medium:
+        0 8px 20px rgba(0,0,0,.12);
+
+    --nb-transition:
+        180ms ease;
+
+    --nb-button-height:
+        50px;
+
+}
+
+.nbhas-section-body {
+  display: grid;
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+  gap: 14px 18px;
+  align-items: start;
+  border-radius: 12px;
+  background:#fafafa;
+  border:1px solid #ececec;
+
+}
+
+@media screen and (max-width: 760px) {
+  .nbhas-section-body {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==========================================================
+   Symptom Cards
+   ========================================================== */
+
+.nbhas-section-body {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px 22px;
+
+}
+.nbhas-section-body > * {
+    padding: 0 6px;
+    box-sizing: border-box;
+}
+
+.nbhas-symptom-row {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+  background: #fff;
+  border: 1px solid rgba(0, 140, 140, .22);
+  border-radius: 14px;
+
+  box-shadow: 0 3px 10px rgba(0, 140, 140, .07);
+}
+
+.nbhas-symptom-row fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+}
+
+.nbhas-symptom-row legend {
+  width: auto;
+  max-width: calc(100% - 20px);
+  margin: 0 auto 14px;
+  padding: 0 8px;
+
+  color: #405044;
+  font-weight: 600;
+  text-align: center;
+}
+
+.nbhas-symptom-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 12px;
+}
+
+@media screen and (max-width: 760px) {
+  .nbhas-section-body {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* One symptom "card" */
+.nbhas-symptom {
+
+    margin-top: 4px;        /* a little more breathing room */
+    margin-bottom: 4px;     /* less vertical gap */
+
+    padding: 8px 8px 2px;
+
+    background: #fff;
+
+    border: 1px solid rgba(0,140,140,.20);
+    border-radius: 14px;
+
+    box-shadow: 0 2px 0px rgba(0,140,140,.06);
+}
+
+/* Symptom title */
+.nbhas-symptom-name {
+    margin-top: -2px;
+    margin-bottom: 2px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #008C8C      /*6d7468;*/
+}
+
+.nbhas-symptom-name-old {
+
+    margin: 0 auto 4px;
+    margin-bottom: 4px;
+    padding: 0 10px;
+
+    text-align: center;
+
+    font-weight: 600;
+    color: #5f6658;
+}
+
+/* Answer buttons */
+.nbhas-answer-options {
+
+    display: flex;
+
+    justify-content: center;
+    gap: 12px;
+
+    flex-wrap: wrap;
+}
+.nbhas-analysis-progress-wrap {
+    width: min(420px, 80%);
+    height: 6px;
+    margin: 24px auto;
+    overflow: hidden;
+    border-radius: 999px;
+    background: rgba(0, 140, 140, 0.14);
+}
+
+.nbhas-analysis-progress-bar {
+    width: 45%;
+    height: 100%;
+    border-radius: inherit;
+    background: #008c8c;
+    animation: nbhas-analysis-progress 1.2s ease-in-out infinite;
+}
+
+@keyframes nbhas-analysis-progress {
+    0% {
+        transform: translateX(-110%);
+    }
+
+    100% {
+        transform: translateX(260%);
+    }
+}
+@keyframes nbhas-pulse {
+    0%,100% {
+        opacity: .35;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.nbhas-analysis-progress-bar {
+    animation: nbhas-pulse 1s ease-in-out infinite;
+}
+
+.nbhas-contact-card {
+
+    max-width: 620px;
+    margin: 24px auto;
+    padding: 22px;
+
+    border: 1px solid var(--nb-border);
+
+    border-radius: 18px;
+
+    background: #fff;
+
+    text-align: center;
+}
+.nbhas-contact-card h3 {
+
+    color: var(--nb-secondary);
+
+    margin-bottom: 12px;
+}
+.nbhas-contact-text {
+
+    margin-bottom: 22px;
+
+    line-height: 1.6;
+
+    color: var(--nb-text-light);
+}
+.nbhas-contact-grid {
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: 16px;
+
+    margin-bottom: 20px;
+}
+.nbhas-contact-grid input {
+
+    padding: 14px 18px;
+
+    border: 1px solid #d7d7d7;
+
+    border-radius: 12px;
+
+    font-size: 16px;
+}
+.nbhas-contact-consent {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 10px;
+
+    text-align: left;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+
+    color: var(--nb-text-light);
+}
+.nbhas-complete-screen .nbhas-contact-card h3 {
+    color: var(--nb-secondary);
+}
