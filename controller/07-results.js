@@ -316,6 +316,30 @@ function renderResults(
         <div id="nbhas-results"></div>
     `;
 
+    /*
+ * Preserve the completed assessment for reporting,
+ * downloading, and email delivery.
+ *
+ * Both Download Report and Email Results will read
+ * this same object.
+ */
+NBHAS.completedAssessment = {
+    category:
+        NBHAS.selectedAssessmentCategory,
+
+    categoryGroup:
+        NBHAS.selectedCategoryGroup,
+
+    answers:
+        answers,
+
+    results:
+        engineResults,
+
+    completedAt:
+        new Date().toISOString()
+};
+
     if (
         typeof window.renderDashboard ===
         'function'

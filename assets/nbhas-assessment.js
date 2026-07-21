@@ -8,7 +8,7 @@
  *   controller/
  *
  * Generated:
- *   2026-07-14T01:19:03.012Z
+ *   2026-07-21T10:00:41.709Z
  *
  ******************************************************************************/
 
@@ -1979,6 +1979,30 @@ function renderResults(
     app.innerHTML = `
         <div id="nbhas-results"></div>
     `;
+
+    /*
+ * Preserve the completed assessment for reporting,
+ * downloading, and email delivery.
+ *
+ * Both Download Report and Email Results will read
+ * this same object.
+ */
+NBHAS.completedAssessment = {
+    category:
+        NBHAS.selectedAssessmentCategory,
+
+    categoryGroup:
+        NBHAS.selectedCategoryGroup,
+
+    answers:
+        answers,
+
+    results:
+        engineResults,
+
+    completedAt:
+        new Date().toISOString()
+};
 
     if (
         typeof window.renderDashboard ===
